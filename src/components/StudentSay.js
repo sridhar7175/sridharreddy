@@ -118,7 +118,7 @@ export const StudentSay = () => {
                         passage of embarrassing hidden in the middle of text</p>
                         </div>
                         <div className="col-md-4 getcoaching1">
-                        <button class="btn1 success text-right">Get Started</button>
+                        <button class="btn5 success text-right">Get Started</button>
 
                         </div>
                     </div>
