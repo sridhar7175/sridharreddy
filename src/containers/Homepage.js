@@ -1,0 +1,27 @@
+import React from 'react';
+import Header from '../components/Header';
+import Slider from '../components/Slider';
+import Cards from '../components/Cards';
+import { Courses } from '../components/Courses';
+import { Events } from '../components/Events';
+import { OnlineStudent } from '../components/OnlineStudent';
+import { OurTeam } from '../components/OurTeam';
+import { StudentSay } from '../components/StudentSay';
+import { Footer } from '../components/Footer';
+
+const Homepage = () => {
+    return (
+        <div>
+            <Header />
+            <Slider />
+            <Cards />
+            <Courses />
+            <Events />
+            <OnlineStudent />
+            <OurTeam />
+            <StudentSay />
+            <Footer />
+        </div>
+    )
+}
+export default Homepage;
