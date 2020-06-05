@@ -17,7 +17,7 @@ export const Aboutus = () => {
                          <p className="mt-2 text-right">--Sridhar Reddy, Founder</p>
                      </div>
                      <div class="col-md-6 mt-3">
-                  <img src="images/maxresdefault.jpg" width="600px"/>
+                  <img src="images/maxresdefault.jpg" width="600px" style={{borderRadius:"10px"}}/>
             </div>
                  </div>
              </div>
@@ -26,22 +26,22 @@ export const Aboutus = () => {
          <div className="students-main">
              <div className="container text-center">
                  <div className="row">
-                     <div className="col-md-3 text-white text-center">
+                     <div className="col-md-3 text-white text-center mt-2">
                      <img src="images/counter_icon1.png" style={{color:"white",paddingBottom:"10px"}} />
                          <h3>1000+</h3>
                          <p>Students</p>
                      </div>
-                     <div className="col-md-3 text-white text-center">
+                     <div className="col-md-3 text-white text-center mt-2">
                         <img src="images/counter_icon2.png" style={{color:"white",paddingBottom:"10px"}} />
                          <h3>20+</h3>
                          <p>Courses</p>
                      </div>
-                     <div className="col-md-3 text-white text-center">
+                     <div className="col-md-3 text-white text-center mt-2">
                      <img src="images/counter_icon3.png" style={{color:"white",paddingBottom:"10px"}} />
                      <h3>20+</h3>
                      <p>Certified Teachers</p>
                      </div>
-                     <div className="col-md-3 text-white text-center">
+                     <div className="col-md-3 text-white text-center mt-2">
                      <img src="images/counter_icon4.png" style={{color:"white",paddingBottom:"10px"}} />
                      <h3>100+</h3>
                      <p>Award Winning</p>

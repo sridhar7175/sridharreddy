@@ -6,7 +6,7 @@ const Cards = () => {
                 <div className="container">
 
                     <div className="card1" style={{ paddingTop: "90px" }}>
-                        <h4 className="text-center" style={{ fontWeight: "bold" }}>Why Choose Coding Sastra</h4>
+                        <h4 className="text-center" style={{ fontWeight: "bold" }}>Why Choose Deva</h4>
                         <p className="text-center">Ignites passion to learn and make you successful.</p>
                     </div>
                     <div className="row">

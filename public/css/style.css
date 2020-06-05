@@ -473,7 +473,6 @@ text-decoration: none !important;
 .post_content {
 	overflow: hidden;
 }
-
 .recent_post li {
 	display: inline-block;
 	width: 100%;
@@ -628,6 +627,80 @@ text-decoration: none !important;
 
 /* --->Placement End ---> */
 
+/* --->Bolg Start */
+
+.bolg{
+  background-image:
+   url(https://cpb-ca-c1.wpmucdn.com/www.rrc.ca/dist/c/1/files/2018/02/RRC-Future-Students-Assessment-Services-001-banner-Q8-2l9t7wn.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.bolg1{
+  color: white;
+  padding-top: 80px;
+}
+
+/* -->Bolg End---> */
+
+/* -->Contact Start */
+.contact1{
+  padding-top: 90px;
+  margin-bottom: 50px;
+
+}
+.contact2{
+  background-color: whitesmoke;
+  width: 550px;
+  height: 500px;
+  border-radius: 10px;
+
+}
+
+.contact2 input[type=text],textarea{
+  border-radius: 5px;
+  outline: none !important;
+  border-color: none !important;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.contact2 ::placeholder{
+  padding-left: 20px;
+}
+.contact2{
+  padding-left: 30px;
+}
+.contact3{
+  padding-bottom: 50px;
+}
+.contactcard1{
+  background-color: #BAD778;
+  width: 350px;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.contactcard2{
+  background-color:#F6677A;
+  width: 350px;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.contactcard3{
+  background-color:#FFC321;
+  width: 350px;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* --->Contact End--> */
 
 
 /* --->Media Quiries Start */
@@ -702,7 +775,7 @@ text-decoration: none !important;
     border-radius: 10px;
   }
   #exampleFormControlTextarea1{
-    width: 260px;
+    width: 250px !important;
   }
   .ourteamcard {
    text-align: center;
@@ -741,7 +814,7 @@ text-decoration: none !important;
 }
 .footer1{
   width: 100%;
-  height: 1700px;
+  height: 1500px;
 }
 .classroom3{
   text-align: left !important;
@@ -749,4 +822,40 @@ text-decoration: none !important;
 .onlineroom3{
   text-align: left !important;
 }
+.Corporatetraining3{
+  text-align: left !important;
+}
+.collegetraining3{
+  text-align: left !important;
+}
+.placement3{
+  text-align: left !important;
+}
+.contact2{
+  background-color: whitesmoke;
+  width: 320px !important;
+  height: 480px;
+  border-radius: 10px;
+}
+.contact2 input[type=text],textarea{
+  width: 300px !important;
+  border-radius: 10px;
+}
+.contact2{
+  padding-left: 5px !important;
+}
+.contactcard1{
+  width: 330px;
+}
+.contactcard2{
+  width: 330px;
+}
+.contactcard3{
+  width: 330px;
+}
+/* .contact2 input[type=text], select, textarea {
+  border-radius: 4px;
+  box-sizing: border-box;
+} */
+
 }

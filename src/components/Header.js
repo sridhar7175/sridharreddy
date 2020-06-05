@@ -107,11 +107,11 @@ const Header = () => {
                                                     Corporate Training
                                                  </DropdownItem>
                                             </Link>
-                                            <Link to="/collegetraining" style={{ textDecoration: "none" }}>
-                                                <DropdownItem>
+                                           
+                                                <DropdownItem href='/collegetraining'>
                                                     College Training
                                                 </DropdownItem>
-                                            </Link>
+                                        
                                             <Link to='/placement' style={{ textDecoration: "none" }}>
                                                 <DropdownItem >
                                                     Placement Assitance

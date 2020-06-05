@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="footer1">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 footer2 text-left">
+                        <div className="col-md-3 footer2 text-center">
                             <h3 className="text-white"><a href="/" className="text-white">Deva</a></h3>
                             <a to="/"> <h5 className="text-white mt-3"><i className="fa fa-map-marker text-white"
                                 aria-hidden="true" ></i>&nbsp;
@@ -30,7 +30,7 @@ export const Footer = () => {
                             <a href="/"> <h5 className="text-white mt-3"><i class="fa fa-mobile" aria-hidden="true"></i>
                         &nbsp; &nbsp;9491908107</h5></a>
                         </div>
-                        <div className="col-md-3 footer2 text-left">
+                        <div className="col-md-3 footer2 text-center">
                             <h5 className="text-white">Useful Links</h5>
                             <h5 className="mt-3"></h5>
                             <Link to="/about" className="mt-5"><h6 className="text-white">About us</h6></Link>
@@ -38,7 +38,7 @@ export const Footer = () => {
                             <Link to="/bolg" className="mt-3"><h6 className="text-white">Bolg</h6></Link>
                             <Link to="/contact" className="mt-3"><h6 className="text-white">Contact</h6></Link>
                         </div>
-                        <div className="col-md-3 footer2 text-left">
+                        <div className="col-md-3 footer2 text-center">
                             <h5 className="text-white">Recent Posts</h5>
                             <ul className="recent_post border_bottom_dash list_none mt-3">
                                 <li>
@@ -109,7 +109,7 @@ export const Footer = () => {
                             </ul>
 
                         </div>
-                        <div className="col-md-3 footer2 text-left">
+                        <div className="col-md-3 footer2 text-center">
                             <h5 className="text-white">Subscribe Newsletter</h5>
 
                             <p className="text-white mt-4">Contrary to popular belief of

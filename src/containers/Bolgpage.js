@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 import { Footer } from '../components/Footer'
-import { Bolg } from '../components/Bolg'
+import { Bolgbanner } from '../components/bolg/Bolgbanner'
 
 export const Bolgpage = () => {
     return (
         <div>
             <Header/>
-            <Bolg/>
+            <Bolgbanner/>
             <Footer/>
         </div>
     )
