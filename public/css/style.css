@@ -46,6 +46,10 @@
     cursor: pointer;
     border-color:white !important;
   }
+  .carousel-caption h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+  }
   
   /* Green */
   .success {
@@ -288,6 +292,8 @@ img {
 .studentsay{
   padding-bottom: 100px;
 }
+
+
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
 /*              Sass Template           */
 /*  global classes  */
@@ -342,6 +348,8 @@ button, button:focus {
   font-family: 'Tenali Ramakrishna', sans-serif;
   font-size: 25px;
 }
+/* --->Studentsay End ----> */
+
 /*------Clients Start-------- */
 .clients{
   margin-bottom: 50px;
@@ -403,6 +411,7 @@ font-size: 30px;
 /* ------Clients End----------- */
 
 /* ---->getcoaching Start---> */
+
 .getcoaching{
   background-color: #FFBC09;
   width: 100%;
@@ -437,12 +446,12 @@ font-size: 30px;
   color: white;
 }
 /* -->getcoaching End----> */
+
 /* ---->footer1 Start----> */
 .footer1{
   background-color: #07294D;
   width: 100%;
-  height: 600px;
-  margin-bottom: 50px;
+  height: 550px;
 }
 .footer2 {
   padding-top: 70px;
@@ -464,6 +473,7 @@ text-decoration: none !important;
 .post_content {
 	overflow: hidden;
 }
+
 .recent_post li {
 	display: inline-block;
 	width: 100%;
@@ -497,121 +507,246 @@ text-decoration: none !important;
   background-color: tomato !important;
   color: white;
 }
+.footer3{
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+.footer3 .pp{
+  text-decoration: none !important;
+}
+.footer3 .pp :hover{
+  color: #f5bf2f !important;
+}
 
 
 /* ---->Footer End */
 
 
+/* ----> ClassRoom Start */
+.classroom{
+  background-image: url(https://dcs.rutgers.edu/sites/default/files/images/rwh-102-class-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  
+}
+.classroom1{
+  color: white;
+  padding-top: 70px;
+}
+.classroom3{
+  text-align: right !important;
+}
+
+/*---> ClassRoom End  */
+
+/* -->Online Room Start */
+
+
+.onlineroom{
+  background-image: url(https://bridge.edu/tefl/img/myimg/courses/xonline-courses-overview.jpg.pagespeed.ic.QaBGhCb0-F.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 200px;
+  
+}
+.onlineroom1{
+  color: white;
+  padding-top: 70px;
+}
+.onlineroom3{
+  text-align: right !important;
+}
+
+
+/* --->Online Room End---> */
+
+/* --->Corporatetraining Start----> */
+
+.Corporatetraining{
+  background-image: url(https://dcs.rutgers.edu/sites/default/files/images/rwh-102-class-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  
+}
+
+.Corporatetraining1{
+  color: white;
+  padding-top: 70px;
+}
+.Corporatetraining3{
+  text-align: right !important;
+}
+/* --->Corporatetraining End----> */
+
+/* --->collegetraining Start----> */
+
+.collegetraining{
+  background-image: url(https://dcs.rutgers.edu/sites/default/files/images/rwh-102-class-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  
+}
+
+.collegetraining1{
+  color: white;
+  padding-top: 70px;
+}
+.collegetraining3{
+  text-align: right !important;
+}
+
+/*--> collegetraining End ----> */
+
+/* -->Placement Start ----->*/
+.placement{
+  background-image:
+   url(https://www.polycom.com/content/dam/polycom/www/product-selector/images/glass-meeting-room-enus.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.placement1{
+  color: white;
+  padding-top: 70px;
+}
+.placement3{
+  text-align: right !important;
+}
+
+/* --->Placement End ---> */
+
 
 
 /* --->Media Quiries Start */
-  @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
-    .card{
-      background-color: LightGray !important;
-      width: 100%;
-      height: 1500px !important;
-   
-    }
-    .aboutus{
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 0px;
-    }
-    .students-main{
-      background-color: #07294D;
+  .card{
+    background-color: LightGray !important;
     width: 100%;
-    height: 800px !important;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    }
-    .ourcourses{
-      padding-top: 50px;
-      padding-bottom: 200px;
-      border-radius: 25px;
-    }
-    .ourcourses img{
-      text-align: center !important;
-      margin: auto !important;
-      width:330px;
-      
-   
-    }
-    .ourcoursescard {
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-     transition: 0.3s;
-     width: 330px;
-     height: 350px;
-     border-radius: 10px;
-   }
-   
-   .ourcoursescard:hover {
-     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-   }
-    .card5 {
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
-      width: 330px;
-      border-radius: 5px;
-    }
-    .card5 img{
-      width: 330px;
-    }
-    .student1{
-      padding-top: 50px;
-      height: 1600px;
-    }
-    .student2{
-      background-color: #203F5F;
-      margin-top: 300px !important;
-      width:300px;
-      height: 700px;
-      color: white;
-      padding-top: 50px;
-      margin: auto !important;
-      border-radius: 10px;
-    }
-    #exampleFormControlTextarea1{
-      width: 260px;
-    }
-    .ourteamcard {
-     text-align: center;
-     margin: auto !important;
-    }
-    #owl-demo .item {
-      margin: 3px;
-      cursor: pointer;
+    height: 1500px !important;
+ 
   }
+  .aboutus{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+  .aboutus img{
+    width: 330px !important;
+  }
+  .students-main{
+    background-color: #07294D;
+  width: 100%;
+  height: 800px !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  }
+  .ourcourses{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    border-radius: 25px;
+  }
+  .ourcourses img{
+    text-align: center !important;
+    margin: auto !important;
+    width:330px;
+    
+ 
+  }
+  .ourcoursescard {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 330px;
+   height: 350px;
+   border-radius: 10px;
+ }
+ 
+ .ourcoursescard:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 330px;
+    border-radius: 5px;
+  }
+  .card5 img{
+    width: 330px;
+  }
+  .student1{
+    padding-top: 50px;
+    height: 1600px;
+  }
+  .student2{
+    background-color: #203F5F;
+    margin-top: 300px !important;
+    width:300px;
+    height: 700px;
+    color: white;
+    padding-top: 50px;
+    margin: auto !important;
+    border-radius: 10px;
+  }
+  #exampleFormControlTextarea1{
+    width: 260px;
+  }
+  .ourteamcard {
+   text-align: center;
+   margin: auto !important;
+  }
+  #owl-demo .item {
+    margin: 3px;
+    cursor: pointer;
+}
 
-  #owl-demo .item img {
-      display: block;
-      height: auto;
-      margin: auto;
+#owl-demo .item img {
+    display: block;
+    height: auto;
+    margin: auto;
 
-  }
+}
 
-  .owl-theme .owl-controls .owl-buttons .owl-prev {
-      left: -11px;
-      top: 60px;
-  }
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -11px;
+    top: 60px;
+}
 
-  .owl-theme .owl-controls .owl-buttons .owl-next {
-      right: -11px;
-      top: 60px;
-  }
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -11px;
+    top: 60px;
+}
 
-  .item img {
-      width: 200px;
-  }
-  .getcoaching{
-    height: 350px;
-  }
-  .getcoaching1{
-    padding-top: 20px;
-  }
-  .footer1{
-    width: 100%;
-    height: 1700px;
-  }
-  }
+.item img {
+    width: 200px;
+}
+.getcoaching{
+  height: 350px;
+}
+.getcoaching1{
+  padding-top: 20px;
+}
+.footer1{
+  width: 100%;
+  height: 1700px;
+}
+.classroom3{
+  text-align: left !important;
+}
+.onlineroom3{
+  text-align: left !important;
+}
+}

@@ -8,7 +8,7 @@ export const Courses = () => {
                     <h2 className="text-center">Our Courses</h2>
                     <p className="text-center mt-2">Latest Courses at Coding Sastra</p>
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 mt-3">
                             <div class="ourcoursescard">
                                 <img src="images/react.jfif" alt="Avatar" />
                                 <div className="mt-3" style={{ paddingLeft: "20px" }}>
@@ -32,7 +32,7 @@ export const Courses = () => {
                                 <div style={{ borderBottom: "1px solid black" }}></div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 mt-3">
                             <div class="ourcoursescard">
                                 <img src="images/nodejs.jpg" alt="Avatar" />
                                 <div className="mt-3" style={{ paddingLeft: "20px" }}>
@@ -56,7 +56,7 @@ export const Courses = () => {
                                 <div style={{ borderBottom: "1px solid black" }}></div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 mt-3">
                             <div class="ourcoursescard">
                                 <img src="images/js.webp" alt="Avatar" />
                                 <div className="mt-3" style={{ paddingLeft: "20px" }}>

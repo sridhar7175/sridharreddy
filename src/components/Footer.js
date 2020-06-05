@@ -1,4 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { FaFacebook } from 'react-icons/fa';
+import { AiFillTwitterCircle } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGoogleCircle } from 'react-icons/ai'
 
 export const Footer = () => {
     return (
@@ -8,7 +12,7 @@ export const Footer = () => {
                     <div className="row">
                         <div className="col-md-3 footer2 text-left">
                             <h3 className="text-white"><a href="/" className="text-white">Deva</a></h3>
-                            <a href="/"> <h5 className="text-white mt-3"><i className="fa fa-map-marker text-white"
+                            <a to="/"> <h5 className="text-white mt-3"><i className="fa fa-map-marker text-white"
                                 aria-hidden="true" ></i>&nbsp;
                         &nbsp;Hyderabad</h5></a>
                             <p className="text-white text-left">MIG 27/1, Road #6, Dharma  Reddy Colony, Phase 1
@@ -29,10 +33,10 @@ export const Footer = () => {
                         <div className="col-md-3 footer2 text-left">
                             <h5 className="text-white">Useful Links</h5>
                             <h5 className="mt-3"></h5>
-                            <a href="/" className="mt-5"><h6 className="text-white">About us</h6></a>
-                            <a href="/" className="mt-3"><h6 className="text-white">Courses</h6></a>
-                            <a href="/" className="mt-3"><h6 className="text-white">Bolg</h6></a>
-                            <a href="/" className="mt-3"><h6 className="text-white">Contact</h6></a>
+                            <Link to="/about" className="mt-5"><h6 className="text-white">About us</h6></Link>
+                            <Link to="/courses" className="mt-3"><h6 className="text-white">Courses</h6></Link>
+                            <Link to="/bolg" className="mt-3"><h6 className="text-white">Bolg</h6></Link>
+                            <Link to="/contact" className="mt-3"><h6 className="text-white">Contact</h6></Link>
                         </div>
                         <div className="col-md-3 footer2 text-left">
                             <h5 className="text-white">Recent Posts</h5>
@@ -107,6 +111,7 @@ export const Footer = () => {
                         </div>
                         <div className="col-md-3 footer2 text-left">
                             <h5 className="text-white">Subscribe Newsletter</h5>
+
                             <p className="text-white mt-4">Contrary to popular belief of
                         lorem Ipsm Latin amet ltin from consectetur industry.</p>
                             <div className="newsletter_form form_style2 mb-4">
@@ -127,9 +132,24 @@ export const Footer = () => {
                                 </form>
                             </div>
                             <h3 className="mt-3 text-white">Follow Us</h3>
-                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-
+                            <span className="text-white" style={{ fontSize: "20px" }}><FaFacebook /></span>&nbsp;&nbsp;
+                            <span className="text-white" style={{ fontSize: "20px" }}><AiFillTwitterCircle /></span>&nbsp;&nbsp;
+                            <span className="text-white" style={{ fontSize: "20px" }}><AiFillLinkedin /></span>
+                            &nbsp;&nbsp;
+                            <span className="text-white" style={{ fontSize: "20px" }}><AiFillGoogleCircle /></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="footer3">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <h6>© 2019 All Rights Reserved by Deva.</h6>
+                        </div>
+                        <div className="col-md-6 text-right">
+                            <Link to="/privacypolicy" className="text-white pp">Privacy Policy</Link>&nbsp;&nbsp;
+                            <Link to='/termsconditions' className="text-white pp">Terms & Conditions</Link>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Slider = () => {
   return (
@@ -15,30 +16,30 @@ const Slider = () => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item">
-            <div style={{ backgroundColor: "black", width: "100%", height: "500px" }}></div>
+            <div style={{ backgroundColor: "#207BEE", width: "100%", height: "500px" }}></div>
             <div class="carousel-caption">
-              <h4>WELCOME TO CODING SASTRA</h4>
-              <p>Ignites Passion To Learn</p>
-              <button class="btn warning">Get Started</button>&nbsp;&nbsp;&nbsp;
-              <button class="btn1 success">Learn More</button>
+              <h4>“Learning Never Stops”</h4>
+              <p>Take interactive Online Classroom Training during COVID-19 Lockdown.</p>
+              <Link to='/courses'><button class="btn1 success mt-3 text-left">View Programs</button></Link>
             </div>
           </div>
           <div class="carousel-item active">
-            <div style={{ backgroundColor: "black", width: "100%", height: "500px" }}></div>
+            <div style={{ backgroundColor: "#207BEE", width: "100%", height: "500px" }}></div>
             <div class="carousel-caption">
-              <h4>WELCOME TO CODING SASTRA</h4>
-              <p>Ignites Passion To Learn</p>
-              <button class="btn warning">Get Started</button>&nbsp;&nbsp;&nbsp;
-            <button class="btn1 success">Learn More</button>
+              <h4>Your Reliable Career Growth Partner</h4>
+              <p>More than 10,000 People opted Deva Lync for Skilling and Upskilling in
+            Disruptive Technologies</p>
+
+              <Link to='/courses'><button class="btn1 success mt-3">View Programs</button></Link>
             </div>
           </div>
           <div class="carousel-item">
-            <div style={{ backgroundColor: "black", width: "100%", height: "500px" }}></div>
+            <div style={{ backgroundColor: "#207BEE", width: "100%", height: "500px" }}></div>
             <div class="carousel-caption">
-              <h4><span style={{ color: "#f5bf2f" }}>EDUCTION</span> FROM A NEW ANGLE</h4>
-              <p>Learn to become Software Engineer in 16 Weeks</p>
-              <button class="btn warning">Get Started</button>&nbsp;&nbsp;&nbsp;
-            <button class="btn1 success">Learn More</button>
+              <h4>Your Reliable Career Growth Partner</h4>
+              <p>More than 10,000 People opted Deva Lync for Skilling and Upskilling in
+            Disruptive Technologies</p>
+              <Link to='/courses'><button class="btn1 success mt-3">View Programs</button></Link>
             </div>
           </div>
         </div> <a class="carousel-control-prev" href="#carousel-403108" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-403108" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>

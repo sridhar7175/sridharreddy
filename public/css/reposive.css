@@ -1,0 +1,115 @@
+
+/* --->Media Quiries Start */
+@media only screen and (max-width: 480px) {
+
+    .card{
+      background-color: LightGray !important;
+      width: 100%;
+      height: 1500px !important;
+   
+    }
+    .aboutus{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 0px;
+    }
+    .aboutus img{
+      width: 330px !important;
+    }
+    .students-main{
+      background-color: #07294D;
+    width: 100%;
+    height: 800px !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    }
+    .ourcourses{
+      padding-top: 50px;
+      padding-bottom: 200px;
+      border-radius: 25px;
+    }
+    .ourcourses img{
+      text-align: center !important;
+      margin: auto !important;
+      width:330px;
+      
+   
+    }
+    .ourcoursescard {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width: 330px;
+     height: 350px;
+     border-radius: 10px;
+   }
+   
+   .ourcoursescard:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+    .card5 {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 330px;
+      border-radius: 5px;
+    }
+    .card5 img{
+      width: 330px;
+    }
+    .student1{
+      padding-top: 50px;
+      height: 1600px;
+    }
+    .student2{
+      background-color: #203F5F;
+      margin-top: 300px !important;
+      width:300px;
+      height: 700px;
+      color: white;
+      padding-top: 50px;
+      margin: auto !important;
+      border-radius: 10px;
+    }
+    #exampleFormControlTextarea1{
+      width: 260px;
+    }
+    .ourteamcard {
+     text-align: center;
+     margin: auto !important;
+    }
+    #owl-demo .item {
+      margin: 3px;
+      cursor: pointer;
+  }
+
+  #owl-demo .item img {
+      display: block;
+      height: auto;
+      margin: auto;
+
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+      left: -11px;
+      top: 60px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+      right: -11px;
+      top: 60px;
+  }
+
+  .item img {
+      width: 200px;
+  }
+  .getcoaching{
+    height: 350px;
+  }
+  .getcoaching1{
+    padding-top: 20px;
+  }
+  .footer1{
+    width: 100%;
+    height: 1700px;
+  }
+  }

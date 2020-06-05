@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FaMobileAlt } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
+import { AiFillTwitterCircle } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGoogleCircle } from 'react-icons/ai'
+
 import {
     Collapse,
     Navbar,
@@ -29,34 +34,29 @@ const Header = () => {
                 <div className="container ">
                     <div className="row">
                         <div className="col-md-4 text-white mt-2" >
-                            <ul className="">
-                                <li>
-                                    <Link to="#"> +91 7337213134 </Link>
-                                </li>
-                                <li>
-                                    <Link to="#">info@deva.com </Link>
-                                </li>
-                            </ul>
+                            <div className="text-center">
+
+                                <Link to="/"> <FaMobileAlt /> +91 7337213134 </Link>
+                                &nbsp;
+
+                                    <Link to="/"> <FaMobileAlt /> info@deva.com </Link>
+                            </div>
+
                         </div>
                         <div className="col-md-4 mt-2">
-                            <ul className="">
-                                <li>
-                                    <Link to="#">Facebook</Link>
-                                </li>
-                                <li>
-                                    <Link to="#">Twitter </Link>
-                                </li>
-                            </ul>
+                            <div className="text-center" style={{ fontSize: "20px" }}>
+                                <Link to="/"><FaFacebook /></Link> &nbsp;&nbsp;
+                                <Link to="/"><AiFillTwitterCircle /> </Link> &nbsp;&nbsp;
+                                <Link to="/"><AiFillGoogleCircle /></Link>
+                                &nbsp;&nbsp;
+                             </div>
                         </div>
                         <div className="col-md-4 mt-2">
-                            <ul className="">
-                                <li>
-                                    <Link to="#">ApplyNow</Link>
-                                </li>
-                                <li>
-                                    <Link to="#">Login </Link>
-                                </li>
-                            </ul>
+                            <div className="text-center">
+                                <Link to="/applynow">ApplyNow</Link>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <Link to="/login">Login </Link>
+                            </div>
+                            <div className="mb-2"></div>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,8 @@ const Header = () => {
                 <div className="navbarheader" color="light">
                     <div className="container">
                         <Navbar light expand="md">
-                            <NavbarBrand href="/" style={{fontSize:"30px"}}>Deva</NavbarBrand>
+                            <Link to='/' style={{ textDecoration: "none" }}>
+                                <NavbarBrand style={{ fontSize: "30px" }}>Deva</NavbarBrand></Link>
                             <NavbarToggler onClick={toggle} />
                             <Collapse isOpen={isOpen} navbar>
                                 <Nav className="ml-auto" navbar>
@@ -75,13 +76,16 @@ const Header = () => {
                                             Courses
                                 </DropdownToggle>
                                         <DropdownMenu right>
-                                            <DropdownItem>
-                                                LongTerm Courses
-                                                
-                                    </DropdownItem>
-                                            <DropdownItem>
-                                                ShortTerm Courses
+                                            <Link to='/' style={{ textDecoration: "none" }}>
+                                                <DropdownItem>
+                                                    LongTerm Courses
+                                            </DropdownItem>
+                                            </Link>
+                                            <Link to='/' style={{ textDecoration: "none" }}>
+                                                <DropdownItem>
+                                                    Short Term Courses
                                      </DropdownItem>
+                                            </Link>
                                         </DropdownMenu>
                                     </UncontrolledDropdown>
                                     <UncontrolledDropdown nav inNavbar>
@@ -89,34 +93,44 @@ const Header = () => {
                                             Services
                             </DropdownToggle>
                                         <DropdownMenu right>
-                                        <DropdownItem>
-                                        Class Room Training
-                         </DropdownItem>
-                                        
-                                            <DropdownItem>
-                                                Online Room Training
+                                            <Link to="/classroom" style={{ textDecoration: "none" }}>
+                                                <DropdownItem>Class Room Training
+                                        </DropdownItem>
+                                            </Link>
+                                            <Link to='/onlineclassroom' style={{ textDecoration: "none" }}>
+                                                <DropdownItem>
+                                                    Online Room Training
                                  </DropdownItem>
-                                            <DropdownItem>
-                                                Corporate Training
+                                            </Link>
+                                            <Link to="/Corporatetraining" style={{ textDecoration: "none" }}>
+                                                <DropdownItem>
+                                                    Corporate Training
                                                  </DropdownItem>
-
-                                            <DropdownItem>
-                                                College Training
+                                            </Link>
+                                            <Link to="/collegetraining" style={{ textDecoration: "none" }}>
+                                                <DropdownItem>
+                                                    College Training
                                                 </DropdownItem>
-                                            <DropdownItem>
-                                                Online Room Training
+                                            </Link>
+                                            <Link to='/placement' style={{ textDecoration: "none" }}>
+                                                <DropdownItem >
+                                                    Placement Assitance
                                             </DropdownItem>
+                                            </Link>
                                         </DropdownMenu>
                                     </UncontrolledDropdown>
                                     <NavItem>
-                                        <NavLink href="/components/">Bolg</NavLink>
+                                        <Link to='/bolg' style={{ textDecoration: "none" }}>
+                                            <NavLink>Bolg</NavLink></Link>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/gallery">Gallery</NavLink>
+                                        <Link to='/gallery' style={{ textDecoration: "none" }}>
+                                            <NavLink>Gallery</NavLink></Link>
                                     </NavItem>
                                     <NavItem>
-                                    <NavLink href="/gallery">Contact</NavLink>
-                                </NavItem>
+                                        <Link to='/contact' style={{ textDecoration: "none" }}>
+                                            <NavLink>Contact</NavLink></Link>
+                                    </NavItem>
 
                                 </Nav>
 

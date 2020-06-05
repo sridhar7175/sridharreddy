@@ -3,7 +3,7 @@ import React from 'react'
 export const OurTeam = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="ourteam">
                     <h3 className="text-center">Meet Our Team</h3>
                     <p className="text-center">Plugins your themes with even more features.</p>
