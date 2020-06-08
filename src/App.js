@@ -15,6 +15,7 @@ import { Onlineclassroompage } from './containers/servicepages/Onlineclassroompa
 import { Corporatetrainingpage } from './containers/servicepages/Corporatetrainingpage';
 import { collegetrainingpage } from './containers/servicepages/collegetrainingpage';
 import { Placementpage } from './containers/servicepages/Placementpage';
+import {Gallerypage} from './containers/Gallerypage'; 
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Route path='/Corporatetraining' component={Corporatetrainingpage}/>
       <Route path='/collegetraining' component={collegetrainingpage}/>
       <Route path='/placement' component={Placementpage}/>
+      <Route path='/gallery' component={Gallerypage}/>
       <Route exact path='*' component={Pagenotfound}/>
 
 

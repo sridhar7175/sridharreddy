@@ -9,6 +9,7 @@ import { OnlineStudent } from '../components/OnlineStudent';
 import { OurTeam } from '../components/OurTeam';
 import { StudentSay } from '../components/StudentSay';
 import { Footer } from '../components/Footer';
+import {GetStarted} from '../components/GetStarted';
 
 
 const Homepage = () => {
@@ -23,6 +24,7 @@ const Homepage = () => {
             <OnlineStudent />
             <OurTeam />
             <StudentSay />
+            <GetStarted/>
             <Footer />
         </div>
     )

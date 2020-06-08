@@ -6,6 +6,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.get('/',(req,res)=>{
     res.send('Hello World');
 })
-app.listen(5000,()=>{
+app.listen(6000,()=>{
     console.log('server is started')
 })
