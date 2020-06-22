@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../components/Header'
-import { Footer } from '../components/Footer'
+import Header from '../components/home/Header'
+import { Footer } from '../components/home/Footer';
 import { Bolgbanner } from '../components/bolg/Bolgbanner'
 
 export const Bolgpage = () => {

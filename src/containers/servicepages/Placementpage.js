@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from '../../components/Header'
+import Header from '../../components/home/Header'
+import { Footer } from '../../components/home/Footer'
 import { Placement } from '../../components/services/Placement'
-import { Footer } from '../../components/Footer'
+
 
 export const Placementpage = () => {
     return (

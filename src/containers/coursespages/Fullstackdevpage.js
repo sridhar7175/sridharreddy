@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../../components/home/Header'
+import { Fullstackdeveloper } from '../../components/courses/Fullstackdeveloper'
 import { Footer } from '../../components/home/Footer'
-import { Corporatetraining } from '../../components/services/Corporatetraining'
 
-export const Corporatetrainingpage = () => {
+export const Fullstackdevpage = () => {
     return (
         <div>
             <Header/>
-            <Corporatetraining/>
+            <Fullstackdeveloper/>
             <Footer/>
         </div>
     )

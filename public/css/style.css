@@ -748,6 +748,42 @@ text-decoration: none !important;
 
 /* -->Gallery End--> */
 
+/* --->Full Stack Developer Start */
+
+.fullstackdeveloper{
+    background-image:
+    url(http://images.ctfassets.net/pvde91xtwr9s/2KNhhe8aqmknlWDD1pusYp/ccb47d93e4a8e48c16ebd1b4167076cc/React__1_.jpg);
+    
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.fullstackdeveloper h2{
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 35px;
+}
+
+.fullstackweb{
+  background-image: url("http://images.ctfassets.net/pvde91xtwr9s/1IIWhP1GHC9PGVo3DhTthl/e535e9ce39213427fdd37deca28f24aa/FSMD.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+width: 100%;
+height: 300px;
+}
+.fullstackweb h1{
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 35px;
+}
+/* --->Full Stack Developer End--> */
 
 /* --->Media Quiries Start */
 @media only screen and (max-width: 480px) {
@@ -920,6 +956,9 @@ text-decoration: none !important;
 
 .gallery2{
   text-align: left !important;
+}
+.login2 .btn-danger{
+  width: 300px !important;
 }
 
 }

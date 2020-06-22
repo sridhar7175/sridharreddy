@@ -1,8 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import { Aboutus } from '../components/Aboutus'
-import { OurTeam } from '../components/OurTeam'
-import { Footer } from '../components/Footer'
+import Header from '../components/home/Header'
+import { Footer } from '../components/home/Footer';
+import { Aboutus } from '../components/home/Aboutus'
+import { OurTeam } from '../components/home/OurTeam'
+
 
 export const Aboutuspage = () => {
     return (

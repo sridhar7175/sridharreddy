@@ -16,6 +16,8 @@ import { Corporatetrainingpage } from './containers/servicepages/Corporatetraini
 import { collegetrainingpage } from './containers/servicepages/collegetrainingpage';
 import { Placementpage } from './containers/servicepages/Placementpage';
 import {Gallerypage} from './containers/Gallerypage'; 
+import { Fullstackdevpage } from './containers/coursespages/Fullstackdevpage';
+import { Fullstackwebpage } from './containers/coursespages/Fullstackwebpage';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
       <Route path='/collegetraining' component={collegetrainingpage}/>
       <Route path='/placement' component={Placementpage}/>
       <Route path='/gallery' component={Gallerypage}/>
+      <Route path='/fullstackdeveloper' component={Fullstackdevpage}/>
+      <Route path='/fullstackwebapp' component={Fullstackwebpage}/>
       <Route exact path='*' component={Pagenotfound}/>
 
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/home/Header'
+import { Footer } from '../components/home/Footer';
 import { Galleryone } from '../components/gallery/Galleryone'
-import { Footer } from '../components/Footer';
-import { GetStarted } from '../components/GetStarted';
+import { GetStarted } from '../components/home/GetStarted';
 
 export const Gallerypage = () => {
     return (

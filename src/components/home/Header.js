@@ -26,8 +26,11 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const OPentoggle = () => setIsOpen(!isOpen);
 
-    const [show, setShow] = useState(false);
+    const [loginShow,setLoginshow]=useState(false);
+    const loginHandleClose=()=>setLoginshow(false);
+    const loginHandleShow=()=>setLoginshow(true)
 
+    const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
@@ -60,77 +63,77 @@ const Header = () => {
                             <div className="text-center">
                                 <Link to="/applynow">ApplyNow</Link>&nbsp; &nbsp; &nbsp; &nbsp;
                             <Link onClick={handleShow}>Login </Link>
+                            <Modal
+                            show={show}
+                            onHide={handleClose}
+                            backdrop="static"
+                            keyboard={false}
+                        >
+                            <Modal.Header closeButton>
+                                <h3>Login</h3>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <div className="login2">
+                                    <form>
+                    
 
+                                        <input type="text" className="mt-3"
 
-                                <Modal
-                                    show={show}
-                                    onHide={handleClose}
-                                    backdrop="static"
-                                    keyboard={false}
-                                >
-                                    <Modal.Header closeButton>
-                                        <h3>Login</h3>
-                                    </Modal.Header>
-                                    <Modal.Body>
-                                        <div className="login2">
-                                            <form>
+                                            placeholder="Email*" />
+                                        <input type="text" className="mt-3"
 
-                                                <input type="text" className="mt-3"
+                                            id="fname" name="firstname" placeholder="Password*" />
+                                        <br />
 
-                                                    placeholder="Email.." />
-                                                <input type="text" className="mt-3"
+                                        <input type="checkbox" className="mt-3" /> &nbsp;&nbsp;
+                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        <button type="button" style={{ width: "400px", height: "40px" }}
+                                            className="btn btn-danger mt-3">Submit</button>
+                                    </form>
+                                </div>
+                            </Modal.Body>
 
-                                                    id="fname" name="firstname" placeholder="Password.." />
-                                                <br />
+                        </Modal>
 
-                                                <input type="checkbox" className="mt-3" /> &nbsp;&nbsp;
-                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                                <button type="button" style={{ width: "400px", height: "40px" }}
-                                                    className="btn btn-danger mt-3">Submit</button>
-                                            </form>
-                                        </div>
-                                    </Modal.Body>
-
-                                </Modal>
 
                             &nbsp; &nbsp; &nbsp; &nbsp;
                             <Link onClick={handleShow}>Register </Link>
 
 
-                                <Modal
-                                    show={show}
-                                    onHide={handleClose}
-                                    backdrop="static"
-                                    keyboard={false}
-                                >
-                                    <Modal.Header closeButton>
-                                        <h3>Register</h3>
-                                    </Modal.Header>
-                                    <Modal.Body>
-                                        <div className="login2">
-                                            <form>
-                                                <input type="text" className="mt-3"
+                            <Modal
+                            show={show}
+                            onHide={handleClose}
+                            backdrop="static"
+                            keyboard={false}
+                        >
+                            <Modal.Header closeButton>
+                                <h3>Register</h3>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <div className="login2">
+                                    <form>
+                                    <input type="text" className="mt-3"
 
-                                                    placeholder="UserName*" />
+                                    placeholder="Email*" />
+                    
 
+                                        <input type="text" className="mt-3"
 
-                                                <input type="text" className="mt-3"
+                                            placeholder="Email*" />
+                                        <input type="text" className="mt-3"
 
-                                                    placeholder="Email*" />
-                                                <input type="text" className="mt-3"
+                                            id="fname" name="firstname" placeholder="Password*" />
+                                        <br />
 
-                                                    id="fname" name="firstname" placeholder="Password*" />
-                                                <br />
+                                        <input type="checkbox" className="mt-3" /> &nbsp;&nbsp;
+                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        <button type="button" style={{ width: "400px", height: "40px" }}
+                                            className="btn btn-danger mt-3">Submit</button>
+                                    </form>
+                                </div>
+                            </Modal.Body>
 
-                                                <input type="checkbox" className="mt-3" /> &nbsp;&nbsp;
-                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                                <button type="button" style={{ width: "400px", height: "40px" }}
-                                                    className="btn btn-danger mt-3">Submit</button>
-                                            </form>
-                                        </div>
-                                    </Modal.Body>
-
-                                </Modal>
+                        </Modal>
 
                             </div>
                             <div className="mb-2"></div>
@@ -153,12 +156,12 @@ const Header = () => {
                                             Courses
                                 </DropdownToggle>
                                         <DropdownMenu right>
-                                            <Link to='/' style={{ textDecoration: "none" }}>
+                                            <Link to='/fullstackdeveloper' style={{ textDecoration: "none" }}>
                                                 <DropdownItem>
                                                     Full Stack Web Development
                                             </DropdownItem>
                                             </Link>
-                                            <Link to='/' style={{ textDecoration: "none" }}>
+                                            <Link to='/fullstackwebapp' style={{ textDecoration: "none" }}>
                                                 <DropdownItem>
                                                     Full Stack Mobile App Development
                                      </DropdownItem>

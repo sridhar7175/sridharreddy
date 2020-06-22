@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../../components/Header';
+import Header from '../../components/home/Header'
+import { Footer } from '../../components/home/Footer'
 import {Onlineclassroom} from '../../components/services/Onlineclassroom'
-import { Footer } from '../../components/Footer'
 
 export const Onlineclassroompage = () => {
     return (

@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from '../../components/Header'
 import { ClassRoom } from '../../components/services/ClassRoom'
-import { Footer } from '../../components/Footer'
+import { Footer } from '../../components/home/Footer'
+import Header from '../../components/home/Header'
+
 
 export const classRoompage = () => {
     return (
