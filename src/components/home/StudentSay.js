@@ -76,32 +76,32 @@ export const StudentSay = () => {
 
                 <div id="owl-demo" class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="images/capegemini.png" />
+                        <img src="images/capegemini.png" alt="s1" />
 
                     </div>
                     <div class="item ">
-                        <img src="images/brocade-partner.png" />
+                        <img src="images/brocade-partner.png" alt="s1" />
                     </div>
                     <div class="item yellow">
-                        <img src="images/quinnox.png" />
+                        <img src="images/quinnox.png" alt="s1"/>
                     </div>
                     <div class="item forestGreen">
-                        <img src="images/salesforce1.png" />
+                        <img src="images/salesforce1.png" alt="s1" />
                     </div>
                     <div class="item">
-                        <img src="images/tech1.png" />
+                        <img src="images/tech1.png" alt="s1"/>
                     </div>
                     <div class="item ">
-                        <img src="images/genpact.jpg" />
+                        <img src="images/genpact.jpg" alt="s1" />
                     </div>
                     <div class="item yellow">
-                        <img src="images/Deliotte.png" />
+                        <img src="images/Deliotte.png" alt="s1"/>
                     </div>
                     <div class="item forestGreen">
-                        <img src="images/att.png" />
+                        <img src="images/att.png" alt="s1" />
                     </div>
                     <div class="item">
-                        <img src="images/process1.png" />
+                        <img src="images/process1.png" alt="s1"/>
                     </div>
 
                 </div>

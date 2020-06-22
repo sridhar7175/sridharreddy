@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaMobileAlt } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { AiFillTwitterCircle } from 'react-icons/ai'
-import { AiFillLinkedin, AiFillGoogleCircle } from 'react-icons/ai'
+import {  AiFillGoogleCircle } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
 import { Modal, Button } from 'react-bootstrap';
 
@@ -19,16 +19,14 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
-    ButtonDropdown,
 } from 'reactstrap';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const OPentoggle = () => setIsOpen(!isOpen);
 
-    const [loginShow,setLoginshow]=useState(false);
-    const loginHandleClose=()=>setLoginshow(false);
-    const loginHandleShow=()=>setLoginshow(true)
+
+  
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
