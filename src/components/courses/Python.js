@@ -5,6 +5,7 @@ export default class Python extends Component {
         return (
             <div>
                 <h1>Python</h1>
+                <h2>Hello</h2>
             </div>
         )
     }
