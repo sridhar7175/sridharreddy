@@ -459,34 +459,6 @@ font-size: 30px;
 .footer2 a{
 text-decoration: none !important;
 }
-.recents{
-  display: inline !important;
-}
-.post_img {
-	float: left !important;
-	margin-right: 10px;
-	max-width: 60px;
-}
-.post_date {
-	font-size: 80%;
-}
-.post_content {
-	overflow: hidden;
-}
-.recent_post li {
-	display: inline-block;
-	width: 100%;
-	margin-bottom: 12px;
-}
-.recent_post li:last-child {
-	margin-bottom: 0;
-}
-.post_content h6 {
-	font-size: 14px;
-	line-height: normal;
-	margin-bottom: 5px;
-	font-weight: normal;
-}
 .newsletter_form {
 	position: relative;
 }
