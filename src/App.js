@@ -18,6 +18,8 @@ import { Placementpage } from './containers/servicepages/Placementpage';
 import {Gallerypage} from './containers/Gallerypage'; 
 import { Fullstackdevpage } from './containers/coursespages/Fullstackdevpage';
 import { Fullstackwebpage } from './containers/coursespages/Fullstackwebpage';
+import { DataSciencepage } from './containers/coursespages/DataSciencepage';
+import { AwsDeveopspage } from './containers/coursespages/AwsDeveopspage';
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
       <Route path='/gallery' component={Gallerypage}/>
       <Route path='/fullstackdeveloper' component={Fullstackdevpage}/>
       <Route path='/fullstackwebapp' component={Fullstackwebpage}/>
+      <Route path='/datascience' component={DataSciencepage}/>
+      <Route exact path='/awsdevops' component={AwsDeveopspage}/>
       <Route exact path='*' component={Pagenotfound}/>
 
 

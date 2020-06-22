@@ -164,11 +164,11 @@ const Header = () => {
                                                     Full Stack Mobile App Development
                                      </DropdownItem>
                                             </Link>
-                                            <Link to='/' style={{ textDecoration: "none" }}>
+                                            <Link to='/datascience' style={{ textDecoration: "none" }}>
                                                 <DropdownItem>
                                                     Data Science </DropdownItem>
                                             </Link>
-                                            <Link to='/' style={{ textDecoration: "none" }}>
+                                            <Link to='/awsdevops' style={{ textDecoration: "none" }}>
                                                 <DropdownItem>
                                                     AWS & DevOps Cloud Architect  </DropdownItem>
                                             </Link>

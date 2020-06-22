@@ -1,256 +1,53 @@
 /* ---->Main Header Start------> */
 .header1 {
-    background-color:#343A40;
-    width: 100%;
+  background-color: #343a40;
+  width: 100%;
 }
-.header1 a{
-    text-decoration: none !important;
-    color: white;
-    padding-top: 2px !important ;
+.header1 a {
+  text-decoration: none !important;
+  color: white;
+  padding-top: 2px !important ;
 }
 .header1 li {
   display: inline !important;
-  
 }
-.header1 li a{
-    padding: 1.6rem 1rem !important; 
+.header1 li a {
+  padding: 1.6rem 1rem !important;
 }
-.header1 a:hover{
-    color: yellow;
+.header1 a:hover {
+  color: yellow;
 }
-.navbar-toggler{
-    outline: none !important;
+.navbar-toggler {
+  outline: none !important;
 }
-.nav-item  .nav-link:hover{
-    color: #f5bf2f !important;
+.nav-item .nav-link:hover {
+  color: #f5bf2f !important;
 }
-.nav-item .nav-link{
-    font-size: 20px;
-    font-weight: bold;
+.nav-item .nav-link {
+  font-size: 20px;
+  font-weight: bold;
 }
 /* ---->Main Header End------> */
 
 /* ----->Slider Start-------> */
 .carousel-item .btn {
-    border: none; /* Remove borders */
-    background-color: #ff9800 !important; /* Add a text color */
-    padding: 14px 28px !important; /* Add some padding */
-    cursor: pointer; /* Add a pointer cursor on mouse-over */
-  }
- 
+  border: none; /* Remove borders */
+  background-color: #ff9800 !important; /* Add a text color */
+  padding: 14px 28px !important; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
 .carousel-caption .btn1 {
-      border: 2px solid white !important;
-    background-color:black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-color:white !important;
-  }
-  .carousel-caption h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-  }
-  
-  /* Green */
-  .success {
-    color: white;
-  }
-  
-  .success:hover {
-    background-color: #f5bf2f;
-    color: white;
-  }
-  .carousel-caption {
-    top:80px;
- }
- /* ---->Card Start-----> */
- /* -----------------Students Start ---------------------------*/
- .card{
-   background-color: LightGray !important;
-   width: 100%;
-   height: 690px;
- }
-.students{
-  margin-top: 50px;
-  padding-top: 100px;
-  color: black;
-  background-color: #F9F9F9;
-  border-radius: 25px !important;
-}
-.s1{
-  padding-top: 50px;
-  text-align: center;
-}
-.box1{
-  padding-top: 25px;
-  border-radius: 25px;
-  background-color: white;
-  padding-bottom: 40px;
-  height: 380px;
-}
-.s2{
-  padding-top: 50px;
-  
-}
-.s3{
-  padding-top: 50px;
-}
-.box2{
-  padding-top: 25px;
-  border-radius: 25px;
-  background-color: white !important;
-  padding-bottom: 40px;
-  height: 380px;
-}
-.box3{
-  padding-top: 25px;
-  border-radius: 25px;
-  background-color: white !important;
-  padding-bottom: 40px;
-  height: 380px;
-}
-
-.popularcourses{
-background-color: #07294D;
-width: 100%;
-height: 300px;
-padding-top: 100px;
-padding-bottom: 100px;
-}
-.aboutus{
-  padding-top: 70px;
-  padding-bottom: 70px;
-  padding-left: 50px;
-}
-.students-main{
-  background-color: #07294D;
-width: 100%;
-height: 300px;
-padding-top: 100px;
-padding-bottom: 100px;
-}
-.students-main p{
-  font-size: 20px;
-}
-
- /*----->Card End------>  */
-
-
- /* ourcourses Start */
- .ourcourses{
-   padding-top: 50px;
-   padding-bottom: 200px;
-   border-radius: 25px;
- }
- .ourcourses img{
-   text-align: center !important;
-   margin: auto !important;
-   width:350px;
-   height: 200px;
-   
-
- }
- .ourcourses a{
-   text-decoration: none !important;
- }
- .ourcoursescard {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 350px;
-  height: 350px;
-  border-radius: 10px;
-}
-
-.ourcoursescard:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-/* ---->Our Coures End---> */
-
-/* ---->Up Coming Events Start--> */
-.events1{
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-.events1 h1{
-  font-family: 'Lexend Tera', sans-serif;
-}
-.events1 p{
-  font-family: 'Lexend Tera', sans-serif;
-}
-.card5 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 350px;
-  border-radius: 5px;
-}
-
-.card5:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  cursor: pointer;
-}
-
-img {
-  border-radius: 5px 5px 0 0;
-}
-
-
-
-/* ---->Up Coming Events End--> */
-
-/* -->Students Start---> */
-.student1{
-  background-color: #07294D;
-  width: 100%;
-  height: 800px;
-  margin-bottom: 100px;
-}
-.student2{
-  background-color: #203F5F;
-  margin-top: 150px !important;
-  width:500px;
-  height: 550px;
-  color: white;
-  padding-top: 50px;
-  border-radius: 10px;
-}
-.student2 h4{
-  padding-left: 30px;
-  font-family: 'Lexend Tera', sans-serif;
-}
-.student2 h6{
-  padding-left: 30px;
-}
-.student2 p{
-  padding-left: 30px;
-}
-.student2 .form-control{
-  margin-left: 30px !important;
- 
-}
-.student2 .lastname{
-  margin-left: 20px !important;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  opacity: 0.85;
-  display: inline-block;
-  line-height: 20px;
-  text-decoration: none;
-}
-.student2 .btn3{
-  margin-left: 40px !important;
-}
-
-#exampleFormControlTextarea1{
-  width: 460px;
-}
-.btn3 {
   border: 2px solid white !important;
-  background-color:black;
+  background-color: black;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  border-color:white !important;
+  border-color: white !important;
+}
+.carousel-caption h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
 }
 
 /* Green */
@@ -262,7 +59,202 @@ img {
   background-color: #f5bf2f;
   color: white;
 }
-.student3{
+.carousel-caption {
+  top: 80px;
+}
+/* ---->Card Start-----> */
+/* -----------------Students Start ---------------------------*/
+.card {
+  background-color: LightGray !important;
+  width: 100%;
+  height: 690px;
+}
+.students {
+  margin-top: 50px;
+  padding-top: 100px;
+  color: black;
+  background-color: #f9f9f9;
+  border-radius: 25px !important;
+}
+.s1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.box1 {
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: white;
+  padding-bottom: 40px;
+  height: 380px;
+}
+.s2 {
+  padding-top: 50px;
+}
+.s3 {
+  padding-top: 50px;
+}
+.box2 {
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: white !important;
+  padding-bottom: 40px;
+  height: 380px;
+}
+.box3 {
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: white !important;
+  padding-bottom: 40px;
+  height: 380px;
+}
+
+.popularcourses {
+  background-color: #07294d;
+  width: 100%;
+  height: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.aboutus {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+}
+.students-main {
+  background-color: #07294d;
+  width: 100%;
+  height: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.students-main p {
+  font-size: 20px;
+}
+
+/*----->Card End------>  */
+
+/* ourcourses Start */
+.ourcourses {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  border-radius: 25px;
+}
+.ourcourses img {
+  text-align: center !important;
+  margin: auto !important;
+  width: 350px;
+  height: 200px;
+}
+.ourcourses a {
+  text-decoration: none !important;
+}
+.ourcoursescard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.ourcoursescard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* ---->Our Coures End---> */
+
+/* ---->Up Coming Events Start--> */
+.events1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.events1 h1 {
+  font-family: "Lexend Tera", sans-serif;
+}
+.events1 p {
+  font-family: "Lexend Tera", sans-serif;
+}
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.card5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+/* ---->Up Coming Events End--> */
+
+/* -->Students Start---> */
+.student1 {
+  background-color: #07294d;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 100px;
+}
+.student2 {
+  background-color: #203f5f;
+  margin-top: 150px !important;
+  width: 500px;
+  height: 550px;
+  color: white;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+.student2 h4 {
+  padding-left: 30px;
+  font-family: "Lexend Tera", sans-serif;
+}
+.student2 h6 {
+  padding-left: 30px;
+}
+.student2 p {
+  padding-left: 30px;
+}
+.student2 .form-control {
+  margin-left: 30px !important;
+}
+.student2 .lastname {
+  margin-left: 20px !important;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  line-height: 20px;
+  text-decoration: none;
+}
+.student2 .btn3 {
+  margin-left: 40px !important;
+}
+
+#exampleFormControlTextarea1 {
+  width: 460px;
+}
+.btn3 {
+  border: 2px solid white !important;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: white !important;
+}
+
+/* Green */
+.success {
+  color: white;
+}
+
+.success:hover {
+  background-color: #f5bf2f;
+  color: white;
+}
+.student3 {
   padding-top: 100px;
 }
 
@@ -270,34 +262,34 @@ img {
 
 /* -->Our Team Start---->*/
 .ourteamcard {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 255px;
   border-radius: 5px;
 }
 
 .ourteamcard:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .ourteamcard img {
   border-radius: 5px 5px 0 0;
 }
-.ourteam{
+.ourteam {
   padding-bottom: 100px;
 }
 /* --->ourteam End---> */
 
 /* --->studentsay Start---> */
-.studentsay{
+.studentsay {
   padding-bottom: 100px;
 }
-
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
 /*              Sass Template           */
 /*  global classes  */
-button, button:focus {
+button,
+button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -344,27 +336,27 @@ button, button:focus {
 
 /*# sourceMappingURL=style.css.map */
 
-.font-rale p{
-  font-family: 'Tenali Ramakrishna', sans-serif;
+.font-rale p {
+  font-family: "Tenali Ramakrishna", sans-serif;
   font-size: 25px;
 }
 /* --->Studentsay End ----> */
 
 /*------Clients Start-------- */
-.clients{
+.clients {
   margin-bottom: 50px;
 }
 #owl-demo .item {
   display: block;
   padding: 30px 0px;
   margin: 5px;
-  color: #FFF;
+  color: #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
 }
-.item img{
+.item img {
   width: 200px !important;
 }
 
@@ -375,7 +367,6 @@ button, button:focus {
 .owl-theme .owl-buttons i {
   margin-top: 2px;
 }
-
 
 .owl-theme .owl-controls .owl-buttons div {
   position: absolute;
@@ -391,15 +382,13 @@ button, button:focus {
   top: 60px;
 }
 
-
-
 .fa-chevron-left {
-font-size: 30px;    
+  font-size: 30px;
 }
-.fa-chevron-right{
-  font-size: 30px;  
+.fa-chevron-right {
+  font-size: 30px;
 }
-.fa-arrow-right{
+.fa-arrow-right {
   background-color: black;
   width: 40px;
   height: 40px;
@@ -412,12 +401,12 @@ font-size: 30px;
 
 /* ---->getcoaching Start---> */
 
-.getcoaching{
-  background-color: #FFBC09;
+.getcoaching {
+  background-color: #ffbc09;
   width: 100%;
   height: 200px;
 }
-.getcoaching1{
+.getcoaching1 {
   padding-top: 50px;
 }
 .btn5 {
@@ -427,13 +416,13 @@ font-size: 30px;
   cursor: pointer; /* Add a pointer cursor on mouse-over */
 }
 
- .btn5 {
-    border: 2px solid white !important;
-  background-color:black;
+.btn5 {
+  border: 2px solid white !important;
+  background-color: black;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  border-color:white !important;
+  border-color: white !important;
 }
 
 /* Green */
@@ -448,69 +437,66 @@ font-size: 30px;
 /* -->getcoaching End----> */
 
 /* ---->footer1 Start----> */
-.footer1{
-  background-color: #07294D;
+.footer1 {
+  background-color: #07294d;
   width: 100%;
   height: 550px;
 }
 .footer2 {
   padding-top: 70px;
 }
-.footer2 a{
-text-decoration: none !important;
+.footer2 a {
+  text-decoration: none !important;
 }
 .newsletter_form {
-	position: relative;
+  position: relative;
 }
 .newsletter_form input {
-	padding: 10px 105px 10px 15px;
-	width: 100%;
-	border: 0;
-	color: #777777;
-	height: 43px;
+  padding: 10px 105px 10px 15px;
+  width: 100%;
+  border: 0;
+  color: #777777;
+  height: 43px;
 }
 .newsletter_form button {
-	position: absolute;
-	right: 4px;
-	top: 4px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
 }
-.btn-default{
+.btn-default {
   background-color: tomato !important;
   color: white;
 }
-.footer3{
+.footer3 {
   background-color: #000000;
   width: 100%;
   height: 100px;
   padding-top: 40px;
   color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
-.footer3 .pp{
+.footer3 .pp {
   text-decoration: none !important;
 }
-.footer3 .pp :hover{
+.footer3 .pp :hover {
   color: #f5bf2f !important;
 }
 
-
 /* ---->Footer End */
 
-
 /* ----> ClassRoom Start */
-.classroom{
+.classroom {
   background-image: url(https://dcs.rutgers.edu/sites/default/files/images/rwh-102-class-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  
 }
-.classroom1{
+.classroom1 {
   color: white;
   padding-top: 70px;
 }
-.classroom3{
+.classroom3 {
   text-align: right !important;
 }
 
@@ -518,82 +504,76 @@ text-decoration: none !important;
 
 /* -->Online Room Start */
 
-
-.onlineroom{
+.onlineroom {
   background-image: url(https://bridge.edu/tefl/img/myimg/courses/xonline-courses-overview.jpg.pagespeed.ic.QaBGhCb0-F.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 200px;
-  
 }
-.onlineroom1{
+.onlineroom1 {
   color: white;
   padding-top: 70px;
 }
-.onlineroom3{
+.onlineroom3 {
   text-align: right !important;
 }
-
 
 /* --->Online Room End---> */
 
 /* --->Corporatetraining Start----> */
 
-.Corporatetraining{
+.Corporatetraining {
   background-image: url(https://dcs.rutgers.edu/sites/default/files/images/rwh-102-class-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  
 }
 
-.Corporatetraining1{
+.Corporatetraining1 {
   color: white;
   padding-top: 70px;
 }
-.Corporatetraining3{
+.Corporatetraining3 {
   text-align: right !important;
 }
 /* --->Corporatetraining End----> */
 
 /* --->collegetraining Start----> */
 
-.collegetraining{
+.collegetraining {
   background-image: url(https://dcs.rutgers.edu/sites/default/files/images/rwh-102-class-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  
 }
 
-.collegetraining1{
+.collegetraining1 {
   color: white;
   padding-top: 70px;
 }
-.collegetraining3{
+.collegetraining3 {
   text-align: right !important;
 }
 
 /*--> collegetraining End ----> */
 
 /* -->Placement Start ----->*/
-.placement{
-  background-image:
-   url(https://www.polycom.com/content/dam/polycom/www/product-selector/images/glass-meeting-room-enus.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+.placement {
+  background-image: url(https://www.polycom.com/content/dam/polycom/www/product-selector/images/glass-meeting-room-enus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 300px;
 }
-.placement1{
+.placement1 {
   color: white;
   padding-top: 70px;
 }
-.placement3{
+.placement3 {
   text-align: right !important;
 }
 
@@ -601,16 +581,15 @@ text-decoration: none !important;
 
 /* --->Bolg Start */
 
-.bolg{
-  background-image:
-   url(https://cpb-ca-c1.wpmucdn.com/www.rrc.ca/dist/c/1/files/2018/02/RRC-Future-Students-Assessment-Services-001-banner-Q8-2l9t7wn.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+.bolg {
+  background-image: url(https://cpb-ca-c1.wpmucdn.com/www.rrc.ca/dist/c/1/files/2018/02/RRC-Future-Students-Assessment-Services-001-banner-Q8-2l9t7wn.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 400px;
 }
-.bolg1{
+.bolg1 {
   color: white;
   padding-top: 80px;
 }
@@ -618,53 +597,52 @@ text-decoration: none !important;
 /* -->Bolg End---> */
 
 /* -->Contact Start */
-.contact1{
+.contact1 {
   padding-top: 90px;
   margin-bottom: 50px;
-
 }
-.contact2{
+.contact2 {
   background-color: whitesmoke;
   width: 550px;
   height: 500px;
   border-radius: 10px;
-
 }
 
-.contact2 input[type=text],textarea{
+.contact2 input[type="text"],
+textarea {
   border-radius: 5px;
   outline: none !important;
   border-color: none !important;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-.contact2 ::placeholder{
+.contact2 ::placeholder {
   padding-left: 20px;
 }
-.contact2{
+.contact2 {
   padding-left: 30px;
 }
-.contact3{
+.contact3 {
   padding-bottom: 50px;
 }
-.contactcard1{
-  background-color: #BAD778;
+.contactcard1 {
+  background-color: #bad778;
   width: 350px;
   height: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
 }
-.contactcard2{
-  background-color:#F6677A;
+.contactcard2 {
+  background-color: #f6677a;
   width: 350px;
   height: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
 }
-.contactcard3{
-  background-color:#FFC321;
+.contactcard3 {
+  background-color: #ffc321;
   width: 350px;
   height: 200px;
   padding-top: 20px;
@@ -675,13 +653,13 @@ text-decoration: none !important;
 /* --->Contact End--> */
 
 /* -->Login Start */
-.login2{
-  
+.login2 {
   width: 320px !important;
   height: 300px;
   border-radius: 10px;
 }
-.login2 input[type=text],textarea{
+.login2 input[type="text"],
+textarea {
   width: 400px !important;
   height: 40px;
   border-radius: 10px;
@@ -690,31 +668,31 @@ text-decoration: none !important;
   border-color: none !important;
   border: 1px solid #ccc;
 }
-.login2{
+.login2 {
   padding-left: 5px !important;
 }
 
 /* --->Login End----> */
 
 /* -->Gallery Start*/
-.gallery{
-  background-color: #7F7F7F;
+.gallery {
+  background-color: #7f7f7f;
   width: 100%;
   height: 200px;
   padding-top: 50px;
 }
-.gallery1{
+.gallery1 {
   float: left;
 }
-.gallery2{
+.gallery2 {
   float: right !important;
   text-align: right;
 }
-.gallery3 img{
+.gallery3 img {
   padding: 10px;
   transition: 1s;
 }
-.gallery3 img:hover{
+.gallery3 img:hover {
   filter: grayscale(0);
 }
 
@@ -722,216 +700,243 @@ text-decoration: none !important;
 
 /* --->Full Stack Developer Start */
 
-.fullstackdeveloper{
-    background-image:
-    url(http://images.ctfassets.net/pvde91xtwr9s/2KNhhe8aqmknlWDD1pusYp/ccb47d93e4a8e48c16ebd1b4167076cc/React__1_.jpg);
-    
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+.fullstackdeveloper {
+  background-image: url(http://images.ctfassets.net/pvde91xtwr9s/2KNhhe8aqmknlWDD1pusYp/ccb47d93e4a8e48c16ebd1b4167076cc/React__1_.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 300px;
 }
-.fullstackdeveloper h2{
+.fullstackdeveloper h2 {
   text-align: center;
   color: white;
   padding-top: 90px;
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: "Balsamiq Sans", cursive;
   font-size: 35px;
 }
 
-.fullstackweb{
+.fullstackweb {
   background-image: url("http://images.ctfassets.net/pvde91xtwr9s/1IIWhP1GHC9PGVo3DhTthl/e535e9ce39213427fdd37deca28f24aa/FSMD.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-width: 100%;
-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
 }
-.fullstackweb h1{
+.fullstackweb h1 {
   text-align: center;
   color: white;
   padding-top: 90px;
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: "Balsamiq Sans", cursive;
   font-size: 35px;
+}
+
+.datascience {
+  background-image: 
+  url("http://images.ctfassets.net/pvde91xtwr9s/2Mpo8QJ0IzGd36v4EKn1NE/3c5e9ae084410498bd215125bca110a5/python.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.datascience h1 {
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 35px;
+}
+.aws {
+  background-image: 
+  url("http://images.ctfassets.net/pvde91xtwr9s/1jZLZ9baWWBUYEM7rNvPTN/02897f6abf90a1097cae83223ea226aa/amazon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.aws h1 {
+  text-align: center;
+  color:white;
+  padding-top: 90px;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 48px;
+  font-weight: 900;
 }
 /* --->Full Stack Developer End--> */
 
 /* --->Media Quiries Start */
 @media only screen and (max-width: 480px) {
-
-  .card{
+  .card {
     background-color: LightGray !important;
     width: 100%;
     height: 1500px !important;
- 
   }
-  .aboutus{
+  .aboutus {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
   }
-  .aboutus img{
+  .aboutus img {
     width: 330px !important;
   }
-  .students-main{
-    background-color: #07294D;
-  width: 100%;
-  height: 800px !important;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: center;
+  .students-main {
+    background-color: #07294d;
+    width: 100%;
+    height: 800px !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
   }
-  .ourcourses{
+  .ourcourses {
     padding-top: 50px;
     padding-bottom: 200px;
     border-radius: 25px;
     margin: auto !important;
   }
-  .ourcourses img{
+  .ourcourses img {
     text-align: center !important;
     margin: auto !important;
-    width:330px;
-    
- 
+    width: 330px;
   }
   .ourcoursescard {
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   transition: 0.3s;
-   width: 330px;
-   height: 350px;
-   border-radius: 10px;
- }
- 
- .ourcoursescard:hover {
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
- }
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  .ourcoursescard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
   .card5 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 330px;
     border-radius: 5px;
   }
-  .card5 img{
+  .card5 img {
     width: 330px;
   }
-  .student1{
+  .student1 {
     padding-top: 50px;
     height: 1600px;
   }
-  .student2{
-    background-color: #203F5F;
+  .student2 {
+    background-color: #203f5f;
     margin-top: 300px !important;
-    width:300px;
+    width: 300px;
     height: 700px;
     color: white;
     padding-top: 50px;
     margin: auto !important;
     border-radius: 10px;
   }
-  #exampleFormControlTextarea1{
+  #exampleFormControlTextarea1 {
     width: 250px !important;
   }
   .ourteamcard {
-   text-align: center;
-   margin: auto !important;
+    text-align: center;
+    margin: auto !important;
   }
   #owl-demo .item {
     margin: 3px;
     cursor: pointer;
-}
+  }
 
-#owl-demo .item img {
+  #owl-demo .item img {
     display: block;
     height: auto;
     margin: auto;
+  }
 
-}
-
-.owl-theme .owl-controls .owl-buttons .owl-prev {
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
     left: -11px;
     top: 60px;
-}
+  }
 
-.owl-theme .owl-controls .owl-buttons .owl-next {
+  .owl-theme .owl-controls .owl-buttons .owl-next {
     right: -11px;
     top: 60px;
-}
+  }
 
-.item img {
+  .item img {
     width: 200px;
-}
-.getcoaching{
-  height: 350px;
-}
-.getcoaching1{
-  padding-top: 20px;
-}
-.footer1{
-  width: 100%;
-  height: 1500px;
-}
-.classroom3{
-  text-align: left !important;
-}
-.onlineroom3{
-  text-align: left !important;
-}
-.Corporatetraining3{
-  text-align: left !important;
-}
-.collegetraining3{
-  text-align: left !important;
-}
-.placement3{
-  text-align: left !important;
-}
-.contact2{
-  background-color: whitesmoke;
-  width: 320px !important;
-  height: 480px;
-  border-radius: 10px;
-}
-.contact2 input[type=text],textarea{
-  width: 300px !important;
-  border-radius: 10px;
-}
-.contact2{
-  padding-left: 5px !important;
-}
-.contactcard1{
-  width: 330px;
-}
-.contactcard2{
-  width: 330px;
-}
-.contactcard3{
-  width: 330px;
-}
-/* .contact2 input[type=text], select, textarea {
+  }
+  .getcoaching {
+    height: 350px;
+  }
+  .getcoaching1 {
+    padding-top: 20px;
+  }
+  .footer1 {
+    width: 100%;
+    height: 1500px;
+  }
+  .classroom3 {
+    text-align: left !important;
+  }
+  .onlineroom3 {
+    text-align: left !important;
+  }
+  .Corporatetraining3 {
+    text-align: left !important;
+  }
+  .collegetraining3 {
+    text-align: left !important;
+  }
+  .placement3 {
+    text-align: left !important;
+  }
+  .contact2 {
+    background-color: whitesmoke;
+    width: 320px !important;
+    height: 480px;
+    border-radius: 10px;
+  }
+  .contact2 input[type="text"],
+  textarea {
+    width: 300px !important;
+    border-radius: 10px;
+  }
+  .contact2 {
+    padding-left: 5px !important;
+  }
+  .contactcard1 {
+    width: 330px;
+  }
+  .contactcard2 {
+    width: 330px;
+  }
+  .contactcard3 {
+    width: 330px;
+  }
+  /* .contact2 input[type=text], select, textarea {
   border-radius: 4px;
   box-sizing: border-box;
 } */
-.login2{
-  
-  width: 300px !important;
-  height: 480px;
-  border-radius: 10px;
-}
-.login2 input[type=text],textarea{
-  width: 300px !important;
-  border-radius: 10px;
-}
-.login2{
-  padding-left: 5px !important;
-}
+  .login2 {
+    width: 300px !important;
+    height: 480px;
+    border-radius: 10px;
+  }
+  .login2 input[type="text"],
+  textarea {
+    width: 300px !important;
+    border-radius: 10px;
+  }
+  .login2 {
+    padding-left: 5px !important;
+  }
 
-.gallery2{
-  text-align: left !important;
+  .gallery2 {
+    text-align: left !important;
+  }
+  .login2 .btn-danger {
+    width: 300px !important;
+  }
 }
-.login2 .btn-danger{
-  width: 300px !important;
-}
-
-}
-
