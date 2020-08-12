@@ -20,11 +20,15 @@ import { Fullstackdevpage } from './containers/coursespages/Fullstackdevpage';
 import { Fullstackwebpage } from './containers/coursespages/Fullstackwebpage';
 import { DataSciencepage } from './containers/coursespages/DataSciencepage';
 import { AwsDeveopspage } from './containers/coursespages/AwsDeveopspage';
+import Index from './components/ScrollToTop/Index';
+import IndexScrollIndicator from './components/ScrollIndicator/IndexScrollIndicator';
 
 
 function App() {
   return (
     <div >
+    <IndexScrollIndicator/>
+    <Index/>
      <Router>
      <Switch>
       <Route exact path ='/' component={Homepage}/>

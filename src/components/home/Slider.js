@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Slider = () => {
   return (
     <div>
-
+    <div className="" style={{paddingTop:"10px"}}></div>
       <div class="carousel slide" id="carousel-403108">
         <ol class="carousel-indicators">
           <li data-slide-to="0" data-target="#carousel-403108">

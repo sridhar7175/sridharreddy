@@ -6,7 +6,7 @@ export const Courses = () => {
             <div className="ourcourses">
                 <div className="container">
                     <h2 className="text-center">Our Courses</h2>
-                    <p className="text-center mt-2">Latest Courses at Coding Sastra</p>
+                    <p className="text-center mt-2">Latest Courses at Deva</p>
                     <div className="row">
                         <div className="col-md-4 mt-3">
                             <div class="ourcoursescard">

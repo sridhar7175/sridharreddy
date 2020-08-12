@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from 'react-countup';
 
 export const Aboutus = () => {
   return (
@@ -49,7 +50,7 @@ export const Aboutus = () => {
                 style={{ color: "white", paddingBottom: "10px" }}
                 alt="Beach Resort"
               />
-              <h3>1000+</h3>
+              <h3><CountUp end={1000}   duration={10} />+</h3>
               <p>Students</p>
             </div>
             <div className="col-md-3 text-white text-center mt-2">
@@ -58,7 +59,7 @@ export const Aboutus = () => {
                 style={{ color: "white", paddingBottom: "10px" }}
                 alt="Beach Resort"
               />
-              <h3>20+</h3>
+              <h3><CountUp end={20}   duration={10} />+</h3>
               <p>Courses</p>
             </div>
             <div className="col-md-3 text-white text-center mt-2">
@@ -67,7 +68,7 @@ export const Aboutus = () => {
                 style={{ color: "white", paddingBottom: "10px" }}
                 alt="Beach Resort"
               />
-              <h3>20+</h3>
+              <h3><CountUp end={20}   duration={10} />+</h3>
               <p>Certified Teachers</p>
             </div>
             <div className="col-md-3 text-white text-center mt-2">
@@ -76,7 +77,7 @@ export const Aboutus = () => {
                 style={{ color: "white", paddingBottom: "10px" }}
                 alt="Beach Resort"
               />
-              <h3>100+</h3>
+              <h3><CountUp end={100}   duration={10} />+</h3>
               <p>Award Winning</p>
             </div>
           </div>

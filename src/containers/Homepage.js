@@ -10,14 +10,16 @@ import { OurTeam } from '../components/home/OurTeam';
 import { StudentSay } from '../components/home/StudentSay';
 import { Footer } from '../components/home/Footer';
 import {GetStarted} from '../components/home/GetStarted';
+import { Header1 } from '../components/home/Header1';
 
 
 const Homepage = () => {
     return (
         <div>
             <Header />
-            <Slider />
-            <Cards />
+             <Header1/>
+            <Slider/>
+            <Cards/>
             <Aboutus/>
             <Courses />
             <Events />
