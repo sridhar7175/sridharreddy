@@ -5,12 +5,9 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const OPentoggle = () => setIsOpen(!isOpen);
-
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
