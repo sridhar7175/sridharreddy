@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {FiCalendar} from 'react-icons/fi'
 
 const Workshop = () => {
   return (
@@ -34,7 +35,7 @@ const Workshop = () => {
                   <Link className="">Sridhar</Link>
                 </div>
                 <div className="box-four">
-                  <Link>Feb 15 03:30--Feb 16 11:30</Link>
+                  <Link><FiCalendar/> &nbsp;Feb 15 03:30--Feb 16 11:30</Link>
                 </div>
                 <div className="box-five">
                   <Link>2000</Link>

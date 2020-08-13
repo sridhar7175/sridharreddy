@@ -945,16 +945,66 @@ textarea {
   text-align: center;
   color: white;
 }
-.placement-title {
-  padding-bottom: 30px;
-}
+
 .placement-title h1{
   color: #2DE473;
 }
 .placement-title p{
   font-size: 18px;
 }
-
+.placement-description{
+  padding-bottom: 30px;
+}
+.placement-description1 h4{
+  color: #2DE473;
+}
+.placement-description {
+  background-color: thistle;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.placement-description .placement-boxone img{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 60px;
+  border-radius: 25px;
+}
+.placement-description .placement-boxone a{
+  text-decoration: none !important;
+  margin-left: 15px;
+  color: black !important;
+  font-size: 20px;
+}
+.placement-description .placement-boxone .btn-danger{
+  margin-left: 10px;
+  border-radius: 25px;
+}
+.placement-boxtwo .shopbag{
+  margin-left: 80px;
+}
+.placement-boxtwo a{
+  text-decoration: none !important;
+  margin-left: 5px;
+  color: black !important;
+  font-size: 15px;
+}
+.placement-boxthree a{
+  text-decoration: none !important;
+  margin-left: 80px;
+  color: black !important;
+  font-size: 15px;
+}
+.placement-boxfour{
+margin-left: 70px;
+}
+.placement-boxfour a{
+  text-decoration: none !important;
+  margin-left: 5px;
+  color: black !important;
+  font-size: 15px;
+}
 /*---> placement-assistance End -----> */
 
 /* --->Media Quiries Start */
@@ -1178,5 +1228,25 @@ textarea {
     margin-left: 10px;
     border-radius: 25px;
     padding: 10px 10px 10px 10px;
+  }
+  .placement-description {
+    background-color: thistle;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .placement-description .placement-boxone img{ 
+    width: 60px;
+    border-radius: 25px;
+  }
+  .placement-description .placement-boxone a{
+    text-decoration: none !important;
+    margin-left: 15px;
+    color: black !important;
+    font-size: 20px;
+  }
+  .placement-description .placement-boxone .btn-danger{
+    margin-left: 10px;
+    border-radius: 25px;
   }
 }

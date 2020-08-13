@@ -1,4 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import {
+  FiShoppingBag,
+  FiMapPin,
+  FiBook,
+  FiArchive,
+  FiBell,
+} from "react-icons/fi";
 
 const Career = () => {
   return (
@@ -21,7 +29,208 @@ const Career = () => {
             project based real time training with experts.
           </p>
         </div>
+        <div className="placement-description1">
+          <h4 className="mt-3 text-left">Careers</h4>
+        </div>
         <div className="placement-description">
+          <div className="placement-boxone mt-5">
+            <img src="images/download.jpg" alt="dow" />
+            <Link>React Native Developer</Link>
+            <button className="btn btn-danger">Vanes</button>
+          </div>
+          <div className="placement-boxtwo ">
+            <Link>
+              <FiShoppingBag className="shopbag" />
+            </Link>
+            <Link>1 yr+</Link>
+            <Link>
+              <FiMapPin className="map" />
+            </Link>
+            <Link>Hyderabad</Link>
+          </div>
+          <div className="placement-boxthree mt-2 ">
+            <Link>
+              Exp:JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiBook />
+            </Link>
+            <Link>
+              Strong in JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiArchive />
+            </Link>
+            <Link>From low 2.4 Lac (Depends on experience)</Link>
+            <Link style={{ marginLeft: "50px" }}>
+              <FiBell />
+              <span style={{ marginLeft: "5px" }}>2 days ago</span>
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              How To Apply:
+              <span style={{ marginLeft: "5px" }}>
+                Apply by sending resume to hr@vanes.in
+              </span>
+            </Link>
+          </div>
+        </div>
+        <div className="placement-description">
+          <div className="placement-boxone mt-5">
+            <img src="images/download.jpg" alt="dow" />
+            <Link>React Native Developer</Link>
+            <button className="btn btn-danger">Vanes</button>
+          </div>
+          <div className="placement-boxtwo ">
+            <Link>
+              <FiShoppingBag className="shopbag" />
+            </Link>
+            <Link>1 yr+</Link>
+            <Link>
+              <FiMapPin className="map" />
+            </Link>
+            <Link>Hyderabad</Link>
+          </div>
+          <div className="placement-boxthree mt-2 ">
+            <Link>
+              Exp:JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiBook />
+            </Link>
+            <Link>
+              Strong in JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiArchive />
+            </Link>
+            <Link>From low 2.4 Lac (Depends on experience)</Link>
+            <Link style={{ marginLeft: "50px" }}>
+              <FiBell />
+              <span style={{ marginLeft: "5px" }}>2 days ago</span>
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              How To Apply:
+              <span style={{ marginLeft: "5px" }}>
+                Apply by sending resume to hr@vanes.in
+              </span>
+            </Link>
+          </div>
+        </div>
+        <div className="placement-description">
+          <div className="placement-boxone mt-5">
+            <img src="images/download.jpg" alt="dow" />
+            <Link>React Native Developer</Link>
+            <button className="btn btn-danger">Vanes</button>
+          </div>
+          <div className="placement-boxtwo ">
+            <Link>
+              <FiShoppingBag className="shopbag" />
+            </Link>
+            <Link>1 yr+</Link>
+            <Link>
+              <FiMapPin className="map" />
+            </Link>
+            <Link>Hyderabad</Link>
+          </div>
+          <div className="placement-boxthree mt-2 ">
+            <Link>
+              Exp:JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiBook />
+            </Link>
+            <Link>
+              Strong in JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiArchive />
+            </Link>
+            <Link>From low 2.4 Lac (Depends on experience)</Link>
+            <Link style={{ marginLeft: "50px" }}>
+              <FiBell />
+              <span style={{ marginLeft: "5px" }}>2 days ago</span>
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              How To Apply:
+              <span style={{ marginLeft: "5px" }}>
+                Apply by sending resume to hr@vanes.in
+              </span>
+            </Link>
+          </div>
+        </div>
+        <div className="placement-description">
+          <div className="placement-boxone mt-5">
+            <img src="images/download.jpg" alt="dow" />
+            <Link>React Native Developer</Link>
+            <button className="btn btn-danger">Vanes</button>
+          </div>
+          <div className="placement-boxtwo ">
+            <Link>
+              <FiShoppingBag className="shopbag" />
+            </Link>
+            <Link>1 yr+</Link>
+            <Link>
+              <FiMapPin className="map" />
+            </Link>
+            <Link>Hyderabad</Link>
+          </div>
+          <div className="placement-boxthree mt-2 ">
+            <Link>
+              Exp:JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiBook />
+            </Link>
+            <Link>
+              Strong in JavaScript, React, React Native, Previous Mobile App
+              Development experience
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              <FiArchive />
+            </Link>
+            <Link>From low 2.4 Lac (Depends on experience)</Link>
+            <Link style={{ marginLeft: "50px" }}>
+              <FiBell />
+              <span style={{ marginLeft: "5px" }}>2 days ago</span>
+            </Link>
+          </div>
+          <div className="placement-boxfour mt-2 ">
+            <Link>
+              How To Apply:
+              <span style={{ marginLeft: "5px" }}>
+                Apply by sending resume to hr@vanes.in
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
