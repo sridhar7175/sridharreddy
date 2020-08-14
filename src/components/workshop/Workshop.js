@@ -38,7 +38,7 @@ const Workshop = () => {
                   <Link><FiCalendar/> &nbsp;Feb 15 03:30--Feb 16 11:30</Link>
                 </div>
                 <div className="box-five">
-                  <Link>2000</Link>
+                  <Link><i className="fas fa-rupee-sign"></i>&nbsp;2000</Link>
                 </div>
                 <div className="box-six">
                   <Link>Venue: Coding Sastra Hyderabad, KPHB</Link>
@@ -74,7 +74,7 @@ const Workshop = () => {
                 <Link>Feb 15 03:30--Feb 16 11:30</Link>
               </div>
               <div className="box-five">
-                <Link>2000</Link>
+                <Link>&nbsp;<i className="fas fa-rupee-sign"></i>&nbsp;2000</Link>
               </div>
               <div className="box-six">
                 <Link>Venue: Coding Sastra Hyderabad, KPHB</Link>

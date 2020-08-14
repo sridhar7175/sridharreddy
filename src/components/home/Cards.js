@@ -65,7 +65,7 @@ const Cards = () => {
                   World ClassName Training / Dedicated Instructors
                 </h4>
                 <p>
-                  Coding Sastra offers world className training with dedicated
+                  Deva offers world className training with dedicated
                   experienced instructors in latest technologies.
                 </p>
               </div>

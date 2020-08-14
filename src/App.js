@@ -4,7 +4,6 @@ import Homepage from "./containers/Homepage";
 import { Pagenotfound } from "./components/Pagenotfound";
 import { Aboutuspage } from "./containers/Aboutuspage";
 import { Ourcoursespage } from "./containers/Ourcoursespage";
-import { Bolgpage } from "./containers/Bolgpage";
 import { Contactpage } from "./containers/Contactpage";
 import { classRoompage } from "./containers/servicepages/classRoompage";
 import { Onlineclassroompage } from "./containers/servicepages/Onlineclassroompage";
@@ -20,6 +19,9 @@ import Index from "./components/ScrollToTop/Index";
 import IndexScrollIndicator from "./components/ScrollIndicator/IndexScrollIndicator";
 import Workshoppageone from "./containers/workshopspages/Workshoppageone";
 import carrerpageone from "./containers/carrerpages/carrerpageone";
+import Corporatepageone from "./containers/corporatePages/Corporatepageone";
+import Blogpageone from "./containers/blogpages/Blogpageone";
+import Faqpageone from "./containers/Faqpages/Faqpageone";
 
 function App() {
   return (
@@ -31,7 +33,7 @@ function App() {
           <Route exact path="/" component={Homepage} />
           <Route exact path="/about" component={Aboutuspage} />
           <Route path="/courses" component={Ourcoursespage} />
-          <Route path="/bolg" component={Bolgpage} />
+          <Route path="/bolg" component={Blogpageone} />
           <Route path="/contact" component={Contactpage} />
           <Route path="/classroom" component={classRoompage} />
           <Route path="/onlineclassroom" component={Onlineclassroompage} />
@@ -45,6 +47,10 @@ function App() {
           <Route exact path="/awsdevops" component={AwsDeveopspage} />
           <Route exact path="/workshops" component={Workshoppageone} />
           <Route exact path="/career" component={carrerpageone} />
+          <Route exact path="/corporate" component={Corporatepageone} />
+          <Route exact path="/faq" component={Faqpageone} />
+
+
 
 
           <Route exact path="*" component={Pagenotfound} />

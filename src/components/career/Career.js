@@ -16,7 +16,7 @@ const Career = () => {
       </div>
       <div className="container">
         <div className="placement-title text-left">
-          <h1 className="mt-5">Placement Assistance</h1>
+          <h4 className="mt-5">Placement Assistance</h4>
           <p className="mt-3">
             Finding jobs and getting placed is very crucial part of our careers,
             be it for career making as a fresher or for career betterment as an

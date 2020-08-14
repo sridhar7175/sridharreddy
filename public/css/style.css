@@ -751,7 +751,8 @@ textarea {
 }
 .fullstackdeveloper h2 {
   text-align: center;
-  color: #EAF0F1;
+  color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 45px;
@@ -788,7 +789,8 @@ textarea {
 }
 .fullstackweb h1 {
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 45px;
@@ -827,10 +829,26 @@ textarea {
 }
 .datascience h1 {
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 45px;
+}
+.datascience1{
+  padding-bottom: 30px;
+}
+.datascience1 h5{
+ text-align: left;
+ font-family: 'Jura', sans-serif;
+ font-size: 18px;
+}
+.datascience1 li{
+ font-family: 'Jura', sans-serif;
+ font-size: 18px;
+}
+.datascience1 h4{
+ font-family: 'Jura', sans-serif;
 }
 /* --->Datascience End--> */
 
@@ -848,11 +866,22 @@ textarea {
 }
 .aws h1 {
   text-align: center;
-  color:white;
+  color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 48px;
   font-weight: 900;
+}
+.aws1{
+  padding-bottom: 30px;
+}
+.aws1 h2{
+  font-family: 'Electrolize', sans-serif;
+}
+.aws1 h5{
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 18px;
 }
 /* --->AWS End--> */
 
@@ -868,6 +897,7 @@ textarea {
   padding-top: 70px;
   color: white;
   font-size:40 px;
+  font-family: 'Mukta', sans-serif !important;
 }
 .workshop-description{
   padding-bottom: 30px;
@@ -945,15 +975,20 @@ textarea {
   text-align: center;
   color: white;
 }
+.placement-assistance h1{
+  font-family: 'Mukta', sans-serif !important;
+}
 
-.placement-title h1{
+.placement-title h4{
   color: #2DE473;
+  font-family: 'Mukta', sans-serif !important;
+  
 }
 .placement-title p{
   font-size: 18px;
 }
 .placement-description{
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .placement-description1 h4{
   color: #2DE473;
@@ -1006,6 +1041,40 @@ margin-left: 70px;
   font-size: 15px;
 }
 /*---> placement-assistance End -----> */
+
+/* --->corporate-training Start---> */
+.corporate-training{
+  background-color: #43BE31;
+  width: 100%;
+  padding-top: 80px;
+  height: 250px;
+}
+.corporate-training h1{
+  font-family: 'Mukta', sans-serif !important;
+}
+.corporate-training1{
+  padding-bottom: 30px;
+}
+.corporate-training1 h5{
+  font-family: 'Tajawal', sans-serif;
+}
+.corporate-training1 p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 18px;
+}
+.corporate-training1 h5{
+  font-family: 'Tajawal', sans-serif;
+  color: #2DE473;
+}
+.corporate-training1 li{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 16px;
+  /* color: rgb(255, 255, 255); */
+}
+/* --->corporate-training End---> */
+
 
 /* --->Media Quiries Start */
 @media only screen and (max-width: 480px) {

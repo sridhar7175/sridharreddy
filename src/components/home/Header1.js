@@ -101,13 +101,13 @@ export const Header1 = () => {
                       Contact
                     </DropdownItem>
                   </Link>
-                  <Link to="/blog" style={{ textDecoration: "none" }}>
-                    <DropdownItem>Bolg </DropdownItem>
-                  </Link>
                   <Link to="/gallery" style={{ textDecoration: "none" }}>
                     <DropdownItem>Gallery </DropdownItem>
                   </Link>
-                  <Link to="/" style={{ textDecoration: "none" }}>
+                  <Link to="/bolg" style={{ textDecoration: "none" }}>
+                    <DropdownItem>Bolg </DropdownItem>
+                  </Link>
+                  <Link to="/faq" style={{ textDecoration: "none" }}>
                     <DropdownItem>FAQ </DropdownItem>
                   </Link>
                 </DropdownMenu>
