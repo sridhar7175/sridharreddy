@@ -4,7 +4,15 @@ const SummerIntenship = () => {
   return (
     <div>
       <div
-        className="summer"
+        className=""
+        style={{
+          backgroundImage: "url(images/Summer.png)",
+          width: "100%",
+          height: "300px",
+          backgroundPosition:"center",
+          backgroundRepeat:"no-repeat",
+          backgroundSize:"cover"
+        }}
       >
         <h1 className=" text-center summmer1">Summer Intenship</h1>
       </div>
@@ -47,11 +55,15 @@ const SummerIntenship = () => {
             We will announce more details soon along with batch details...
           </p>
           <div className="fullstack-download mt-5">
-          <h1>Download Program Brochure</h1>
-          <button type="button" className="btn btn-danger mt-3" style={{borderRadius:"25px"}}>
-            Download
-          </button>
-        </div>
+            <h1>Download Program Brochure</h1>
+            <button
+              type="button"
+              className="btn btn-danger mt-3"
+              style={{ borderRadius: "25px" }}
+            >
+              Download
+            </button>
+          </div>
         </div>
       </div>
     </div>
