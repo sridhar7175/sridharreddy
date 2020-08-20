@@ -34,19 +34,19 @@ const Header = () => {
               <div className="text-center" style={{ fontSize: "20px" }}>
                 <a
                   href="https://www.facebook.com/codingsastra/"
-                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   <FaFacebook />
                 </a>{" "}
                 &nbsp;&nbsp;
                 <a
                   href="https://twitter.com/codingsastra?lang=en"
-                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   <AiFillTwitterCircle />
                 </a>{" "}
                 &nbsp;&nbsp;
-                <a href="https://www.codingsastra.com/" target="_blank">
+                <a href="https://www.codingsastra.com/" rel="noopener noreferrer" >
                   <AiFillGoogleCircle />
                 </a>
                 &nbsp;&nbsp;

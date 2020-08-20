@@ -52,7 +52,7 @@ export const Header1 = () => {
                     <Link to="/awsdevops" style={{ textDecoration: "none" }}>
                       <DropdownItem>AWS & DevOps Cloud Architect </DropdownItem>
                     </Link>
-                    <Link to="/" style={{ textDecoration: "none" }}>
+                    <Link to="/summerinternship" style={{ textDecoration: "none" }}>
                       <DropdownItem>Summer Internship Training </DropdownItem>
                     </Link>
                   </DropdownMenu>

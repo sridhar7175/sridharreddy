@@ -22,6 +22,7 @@ import carrerpageone from "./containers/carrerpages/carrerpageone";
 import Corporatepageone from "./containers/corporatePages/Corporatepageone";
 import Blogpageone from "./containers/blogpages/Blogpageone";
 import Faqpageone from "./containers/Faqpages/Faqpageone";
+import SummerIntenPage from "./containers/coursespages/SummerIntenPage";
 
 function App() {
   return (
@@ -44,14 +45,12 @@ function App() {
           <Route path="/fullstackdeveloper" component={Fullstackdevpage} />
           <Route path="/fullstackwebapp" component={Fullstackwebpage} />
           <Route path="/datascience" component={DataSciencepage} />
-          <Route exact path="/awsdevops" component={AwsDeveopspage} />
-          <Route exact path="/workshops" component={Workshoppageone} />
-          <Route exact path="/career" component={carrerpageone} />
-          <Route exact path="/corporate" component={Corporatepageone} />
-          <Route exact path="/faq" component={Faqpageone} />
-
-
-
+          <Route path="/awsdevops" component={AwsDeveopspage} />
+          <Route path="/summerinternship" component={SummerIntenPage} />
+          <Route path="/workshops" component={Workshoppageone} />
+          <Route path="/career" component={carrerpageone} />
+          <Route path="/corporate" component={Corporatepageone} />
+          <Route path="/faq" component={Faqpageone} />
 
           <Route exact path="*" component={Pagenotfound} />
         </Switch>

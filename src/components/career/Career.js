@@ -177,7 +177,7 @@ const Career = () => {
             <Link>
               How To Apply:
               <span style={{ marginLeft: "5px" }}>
-                Apply by sending resume to hr@vanes.in
+                Apply by sending resume to hr@tcs.in
               </span>
             </Link>
           </div>
@@ -186,21 +186,21 @@ const Career = () => {
           <div className="placement-boxone mt-5">
             <img src="images/download.jpg" alt="dow" />
             <Link>React Native Developer</Link>
-            <button className="btn btn-danger">Vanes</button>
+            <button className="btn btn-danger">Hcl</button>
           </div>
           <div className="placement-boxtwo ">
             <Link>
               <FiShoppingBag className="shopbag" />
             </Link>
-            <Link>1 yr+</Link>
+            <Link>3 yr+</Link>
             <Link>
               <FiMapPin className="map" />
             </Link>
-            <Link>Hyderabad</Link>
+            <Link>Banglore</Link>
           </div>
           <div className="placement-boxthree mt-2 ">
             <Link>
-              Exp:JavaScript, React, React Native, Previous Mobile App
+              Exp: Strong in python,DataScience
               Development experience
             </Link>
           </div>
@@ -209,7 +209,7 @@ const Career = () => {
               <FiBook />
             </Link>
             <Link>
-              Strong in JavaScript, React, React Native, Previous Mobile App
+              Strong in python,DataScience
               Development experience
             </Link>
           </div>
@@ -227,7 +227,7 @@ const Career = () => {
             <Link>
               How To Apply:
               <span style={{ marginLeft: "5px" }}>
-                Apply by sending resume to hr@vanes.in
+                Apply by sending resume to hr@hcl.in
               </span>
             </Link>
           </div>

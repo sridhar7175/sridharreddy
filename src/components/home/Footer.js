@@ -61,7 +61,7 @@ export const Footer = () => {
             </div>
             <div className="col-md-3 footer2 text-left">
               <h5 className="text-white">Useful Links</h5>
-              <h5 className="mt-3"></h5>
+              
               <Link to="/about" className="mt-5">
                 <h6 className="text-white">About us</h6>
               </Link>

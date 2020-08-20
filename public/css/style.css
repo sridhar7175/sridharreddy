@@ -1,5 +1,5 @@
 /* scroll-to-top */
-.scroll-to-top{
+.scroll-to-top {
   position: fixed;
   bottom: 12px;
   left: 50%;
@@ -7,31 +7,31 @@
   height: 40px;
   border-radius: 100%;
   background: #8b0000;
-  color: #FFF;
+  color: #fff;
   z-index: 1;
 }
-.scroll-to-top .icon{
- margin-top: 10px;
- animation: scrollTop 0.5s alternate ease infinite;
- cursor: pointer;
+.scroll-to-top .icon {
+  margin-top: 10px;
+  animation: scrollTop 0.5s alternate ease infinite;
+  cursor: pointer;
 }
-@keyframes scrollTop{
-  from{
+@keyframes scrollTop {
+  from {
     transform: translateY(2px);
   }
-  to{
-     transform: translateY(-1px);
+  to {
+    transform: translateY(-1px);
   }
 }
 
-.scroll-container{
- position: fixed;
- top:0;
- left: 0;
- width: 100%;
- height: 5px;
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
 }
-.scroll-container .indicator{
+.scroll-container .indicator {
   height: 100%;
   background: #8b0000;
 }
@@ -39,7 +39,6 @@
 .header1 {
   background-color: #343a40;
   width: 100%;
-  
 }
 .header1 a {
   text-decoration: none !important;
@@ -752,7 +751,7 @@ textarea {
 .fullstackdeveloper h2 {
   text-align: center;
   color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0px 1px 4px;
+  text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 45px;
@@ -761,17 +760,17 @@ textarea {
   margin-top: 30px;
   padding-bottom: 30px;
 }
-.fullstack-description h1{
+.fullstack-description h1 {
   margin-left: 70px;
 }
-.fullstack-description h5{
-  font-family: 'Assistant', sans-serif;
+.fullstack-description h5 {
+  font-family: "Assistant", sans-serif;
   margin-left: 70px;
 }
-.fullstack-description li{
+.fullstack-description li {
   margin-left: 70px;
 }
-.fullstack-description .btn-danger{
+.fullstack-description .btn-danger {
   margin-left: 70px;
   border-radius: 10px;
 }
@@ -800,17 +799,17 @@ textarea {
   margin-top: 30px;
   padding-bottom: 30px;
 }
-.fullweb-description h1{
+.fullweb-description h1 {
   margin-left: 70px;
 }
-.fullweb-description h5{
-  font-family: 'Assistant', sans-serif;
+.fullweb-description h5 {
+  font-family: "Assistant", sans-serif;
   margin-left: 70px;
 }
-.fullweb-description li{
+.fullweb-description li {
   margin-left: 70px;
 }
-.fullweb-description .btn-danger{
+.fullweb-description .btn-danger {
   margin-left: 70px;
   border-radius: 10px;
 }
@@ -819,8 +818,7 @@ textarea {
 /* --->DataScience Start*/
 
 .datascience {
-  background-image: 
-  url("http://images.ctfassets.net/pvde91xtwr9s/2Mpo8QJ0IzGd36v4EKn1NE/3c5e9ae084410498bd215125bca110a5/python.jpg");
+  background-image: url("http://images.ctfassets.net/pvde91xtwr9s/2Mpo8QJ0IzGd36v4EKn1NE/3c5e9ae084410498bd215125bca110a5/python.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -830,34 +828,32 @@ textarea {
 .datascience h1 {
   text-align: center;
   color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0px 1px 4px;
+  text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 45px;
 }
-.datascience1{
+.datascience1 {
   padding-bottom: 30px;
 }
-.datascience1 h5{
- text-align: left;
- font-family: 'Jura', sans-serif;
- font-size: 18px;
+.datascience1 h5 {
+  text-align: left;
+  font-family: "Jura", sans-serif;
+  font-size: 18px;
 }
-.datascience1 li{
- font-family: 'Jura', sans-serif;
- font-size: 18px;
+.datascience1 li {
+  font-family: "Jura", sans-serif;
+  font-size: 18px;
 }
-.datascience1 h4{
- font-family: 'Jura', sans-serif;
+.datascience1 h4 {
+  font-family: "Jura", sans-serif;
 }
 /* --->Datascience End--> */
 
 /* --->AWS Start--> */
 
-
 .aws {
-  background-image: 
-  url("http://images.ctfassets.net/pvde91xtwr9s/1jZLZ9baWWBUYEM7rNvPTN/02897f6abf90a1097cae83223ea226aa/amazon.jpg");
+  background-image: url("http://images.ctfassets.net/pvde91xtwr9s/1jZLZ9baWWBUYEM7rNvPTN/02897f6abf90a1097cae83223ea226aa/amazon.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -867,52 +863,52 @@ textarea {
 .aws h1 {
   text-align: center;
   color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0px 1px 4px;
+  text-shadow: rgb(0, 0, 0) 0px 1px 4px;
   padding-top: 90px;
   font-family: "Balsamiq Sans", cursive;
   font-size: 48px;
   font-weight: 900;
 }
-.aws1{
+.aws1 {
   padding-bottom: 30px;
 }
-.aws1 h2{
-  font-family: 'Electrolize', sans-serif;
+.aws1 h2 {
+  font-family: "Electrolize", sans-serif;
 }
-.aws1 h5{
-  font-family: 'Saira Condensed', sans-serif;
+.aws1 h5 {
+  font-family: "Saira Condensed", sans-serif;
   font-size: 18px;
 }
 /* --->AWS End--> */
 
 /* ----->WorkShop Start-----> */
 
-.workshop{
-  background-color: #E83350;
+.workshop {
+  background-color: #e83350;
   width: 100%;
   height: 200px;
 }
-.workshop-title h1{
+.workshop-title h1 {
   text-align: center;
   padding-top: 70px;
   color: white;
-  font-size:40 px;
-  font-family: 'Mukta', sans-serif !important;
+  font-size: 40 px;
+  font-family: "Mukta", sans-serif !important;
 }
-.workshop-description{
+.workshop-description {
   padding-bottom: 30px;
 }
-.workshop-box{
+.workshop-box {
   margin-left: 80px;
-  background-color: #EAF0F1;
+  background-color: #eaf0f1;
   border-radius: 25px;
   height: 300px;
 }
-.workshop-box .box-one{
+.workshop-box .box-one {
   padding-left: 40px;
   padding-top: 50px;
 }
-.workshop-box .box-one img{
+.workshop-box .box-one img {
   width: 250px;
   height: 200px;
   border-radius: 10px;
@@ -920,46 +916,46 @@ textarea {
 .workshop-box .box-two {
   padding-top: 50px;
 }
-.workshop-box .box-two a{
+.workshop-box .box-two a {
   text-decoration: none;
   padding-left: 40px;
   font-size: 25px;
   font-weight: bold;
   color: black !important;
 }
-.box-three a{
+.box-three a {
   text-decoration: none !important;
   padding-left: 45px;
   font-size: 15px;
   color: black !important;
 }
-.box-four a{
+.box-four a {
   text-decoration: none !important;
   padding-left: 45px;
   font-size: 15px;
   color: black !important;
 }
-.box-five a{
+.box-five a {
   text-decoration: none !important;
   padding-left: 45px;
   font-size: 15px;
   color: black !important;
 }
-.box-six a{
+.box-six a {
   text-decoration: none !important;
   padding-left: 45px;
   font-size: 15px;
   color: black !important;
 }
-.box-seven{
+.box-seven {
   padding-top: 30px;
 }
-.box-seven .btn-danger{
+.box-seven .btn-danger {
   margin-left: 150px;
   border-radius: 25px;
   padding: 10px 10px 10px 10px;
 }
-.box-seven .btn-success{
+.box-seven .btn-success {
   margin-left: 40px;
   border-radius: 25px;
   padding: 10px 10px 10px 10px;
@@ -967,31 +963,30 @@ textarea {
 /* ----->WorkShop End */
 
 /*---> placement-assistance Start -----> */
-.placement-assistance{
+.placement-assistance {
   width: 100%;
   height: 300px;
-  background-color: #7A8AC2;
+  background-color: #7a8ac2;
   padding-top: 100px;
   text-align: center;
   color: white;
 }
-.placement-assistance h1{
-  font-family: 'Mukta', sans-serif !important;
+.placement-assistance h1 {
+  font-family: "Mukta", sans-serif !important;
 }
 
-.placement-title h4{
-  color: #2DE473;
-  font-family: 'Mukta', sans-serif !important;
-  
+.placement-title h4 {
+  color: #2de473;
+  font-family: "Mukta", sans-serif !important;
 }
-.placement-title p{
+.placement-title p {
   font-size: 18px;
 }
-.placement-description{
+.placement-description {
   padding-bottom: 10px;
 }
-.placement-description1 h4{
-  color: #2DE473;
+.placement-description1 h4 {
+  color: #2de473;
 }
 .placement-description {
   background-color: thistle;
@@ -1000,41 +995,41 @@ textarea {
   margin-left: 80px;
   margin-bottom: 30px;
 }
-.placement-description .placement-boxone img{
+.placement-description .placement-boxone img {
   margin-left: 10px;
   margin-top: 10px;
   width: 60px;
   border-radius: 25px;
 }
-.placement-description .placement-boxone a{
+.placement-description .placement-boxone a {
   text-decoration: none !important;
   margin-left: 15px;
   color: black !important;
   font-size: 20px;
 }
-.placement-description .placement-boxone .btn-danger{
+.placement-description .placement-boxone .btn-danger {
   margin-left: 10px;
   border-radius: 25px;
 }
-.placement-boxtwo .shopbag{
+.placement-boxtwo .shopbag {
   margin-left: 80px;
 }
-.placement-boxtwo a{
+.placement-boxtwo a {
   text-decoration: none !important;
   margin-left: 5px;
   color: black !important;
   font-size: 15px;
 }
-.placement-boxthree a{
+.placement-boxthree a {
   text-decoration: none !important;
   margin-left: 80px;
   color: black !important;
   font-size: 15px;
 }
-.placement-boxfour{
-margin-left: 70px;
+.placement-boxfour {
+  margin-left: 70px;
 }
-.placement-boxfour a{
+.placement-boxfour a {
   text-decoration: none !important;
   margin-left: 5px;
   color: black !important;
@@ -1043,37 +1038,73 @@ margin-left: 70px;
 /*---> placement-assistance End -----> */
 
 /* --->corporate-training Start---> */
-.corporate-training{
-  background-color: #43BE31;
+.corporate-training {
+  background-color: #43be31;
   width: 100%;
   padding-top: 80px;
   height: 250px;
 }
-.corporate-training h1{
-  font-family: 'Mukta', sans-serif !important;
+.corporate-training h1 {
+  font-family: "Mukta", sans-serif !important;
 }
-.corporate-training1{
+.corporate-training1 {
   padding-bottom: 30px;
 }
-.corporate-training1 h5{
-  font-family: 'Tajawal', sans-serif;
+.corporate-training1 h5 {
+  font-family: "Tajawal", sans-serif;
 }
-.corporate-training1 p{
-  font-family: 'Comfortaa', cursive;
-  font-family: 'M PLUS 1p', sans-serif;
+.corporate-training1 p {
+  font-family: "Comfortaa", cursive;
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 18px;
 }
-.corporate-training1 h5{
-  font-family: 'Tajawal', sans-serif;
-  color: #2DE473;
+.corporate-training1 h5 {
+  font-family: "Tajawal", sans-serif;
+  color: #2de473;
 }
-.corporate-training1 li{
-  font-family: 'Comfortaa', cursive;
-  font-family: 'M PLUS 1p', sans-serif;
+.corporate-training1 li {
+  font-family: "Comfortaa", cursive;
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 16px;
   /* color: rgb(255, 255, 255); */
 }
 /* --->corporate-training End---> */
+
+/* --->Summer Intenship Start---> */
+.summer{
+  background-image: "url(images/Summer.png)";
+  width: "100%";
+  background-position: "center";
+  background-repeat: "no-repeat";
+  background-size: "cover";
+  height: "300px",
+}
+.summmer1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0px 1px 4px;
+  padding-top: 90px !important;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 48px;
+  font-weight: 900;
+}
+.summer2{
+  padding-bottom: 30px;
+}
+.summer2 h2{
+  font-family: "Mukta", sans-serif !important;
+}
+.summer2 h5{
+  font-family: "Tajawal", sans-serif;
+}
+.summer2 h4{
+  font-family: "Mukta", sans-serif !important;
+}
+.summer2 h6{
+  font-family: "Tajawal", sans-serif;
+}
+
+/* --->Summer Intenship End---> */
 
 
 /* --->Media Quiries Start */
@@ -1248,52 +1279,51 @@ margin-left: 70px;
   .login2 .btn-danger {
     width: 300px !important;
   }
-  .fullstack-description h1{
+  .fullstack-description h1 {
     margin-left: 10px;
   }
-  .fullstack-description h5{
+  .fullstack-description h5 {
     margin-left: 10px;
   }
-  .fullstack-description li{
+  .fullstack-description li {
     margin-left: 10px;
   }
-  .fullstack-description .btn-danger{
+  .fullstack-description .btn-danger {
     margin-left: 10px;
   }
-  .fullweb-description h1{
+  .fullweb-description h1 {
     margin-left: 10px;
   }
-  .fullweb-description h5{
+  .fullweb-description h5 {
     margin-left: 10px;
   }
-  .fullweb-description li{
+  .fullweb-description li {
     margin-left: 10px;
   }
-  .fullweb-description .btn-danger{
+  .fullweb-description .btn-danger {
     margin-left: 10px;
   }
-  .workshop-box{
+  .workshop-box {
     margin-left: 10px;
-    background-color: #EAF0F1;
+    background-color: #eaf0f1;
     border-radius: 25px;
     height: 600px;
   }
-  .workshop-box .box-one{
-    
+  .workshop-box .box-one {
   }
-  .workshop-box .box-two{
+  .workshop-box .box-two {
     padding-left: 10px;
     padding-top: 10px;
   }
-  .box-seven{
+  .box-seven {
     padding-top: 30px;
   }
-  .box-seven .btn-danger{
+  .box-seven .btn-danger {
     margin-left: 30px;
     border-radius: 25px;
     padding: 10px 10px 10px 10px;
   }
-  .box-seven .btn-success{
+  .box-seven .btn-success {
     margin-left: 10px;
     border-radius: 25px;
     padding: 10px 10px 10px 10px;
@@ -1304,17 +1334,17 @@ margin-left: 70px;
     border-radius: 10px;
     margin-left: 10px;
   }
-  .placement-description .placement-boxone img{ 
+  .placement-description .placement-boxone img {
     width: 60px;
     border-radius: 25px;
   }
-  .placement-description .placement-boxone a{
+  .placement-description .placement-boxone a {
     text-decoration: none !important;
     margin-left: 15px;
     color: black !important;
     font-size: 20px;
   }
-  .placement-description .placement-boxone .btn-danger{
+  .placement-description .placement-boxone .btn-danger {
     margin-left: 10px;
     border-radius: 25px;
   }
